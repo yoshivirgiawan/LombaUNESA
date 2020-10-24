@@ -19,7 +19,19 @@
 .button {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16),
         0 2px 10px 0 rgba(0, 0, 0, 0.12) important;
-        s
+}
+
+.my-center {
+    text-align: center !important;
+    color: black;
+}
+
+.aaa {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: left !important;
 }
 
 /* @media (min-width: 768px) header.masthead .intro-text {
