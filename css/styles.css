@@ -22,16 +22,7 @@
 }
 
 .my-center {
-    text-align: center !important;
-    color: black;
-}
-
-.aaa {
-    text-align: left !important;
-}
-
-.text-center {
-    text-align: left !important;
+    text-align: center;
 }
 
 /* @media (min-width: 768px) header.masthead .intro-text {

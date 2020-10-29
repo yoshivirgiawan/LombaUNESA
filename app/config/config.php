@@ -1,6 +1,6 @@
 <?php
 
-define('BASEURL', 'http://localhost/lombaunsri');
+define('BASEURL', 'http://localhost/lombaunesa');
 
 //DB
 define('DB_HOST', 'localhost');

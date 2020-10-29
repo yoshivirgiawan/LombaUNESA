@@ -9,7 +9,9 @@
                 aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger "
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                            href="<?= BASEURL?>/homedokter">coba dokter</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
                             href="#services">Konsultasi</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
                             href="#portfolio">Services</a></li>
@@ -37,7 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="aaa text-uppercase section-heading">Services</h2>
+                    <h2 class="text-uppercase section-heading">Services</h2>
                     <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur</h3>
                 </div>
             </div>
