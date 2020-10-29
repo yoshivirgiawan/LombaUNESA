@@ -3,7 +3,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a href="#" class="logo navbar-brand"><img src="img/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
+            <a href="#" class="logo navbar-brand"><img src="<?= BASEURL?>/img/dokter/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -166,7 +166,7 @@
                                     <div class="notify-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Saifudin</p>
@@ -176,7 +176,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -186,7 +186,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -196,7 +196,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -206,7 +206,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -216,7 +216,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -226,7 +226,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="img/3.png" alt="image">
+                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -243,7 +243,7 @@
                             <!-- Nav Item - User Information -->
                             <li class="nav-item nav-link dropdown no-arrow mr-70">
                                 <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img class="img-profile rounded-circle" src="img/3.png">
+                                    <img class="img-profile rounded-circle" src="<?= BASEURL?>/img/dokter/3.png">
                                     <span class="ml-2 text-profile">Alif Rahman</span>
                                 </a>
                                 <!-- Dropdown - User Information -->
