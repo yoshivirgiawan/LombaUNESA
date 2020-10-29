@@ -818,18 +818,10 @@ div {
     box-shadow: 0 2px 6px rgba(0,0,0,0.16);
 }
 
-.card-title-container {
-    background-color: #f8f9fc;
-    border-radius: 10px;
-    color: #3A405B;
-    font-weight: 700;
-    border-bottom: 1px solid #dbe0ee;
-}
-
 footer {
     padding: 2rem 0;
     flex-shrink: 0;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 footer .copyright {

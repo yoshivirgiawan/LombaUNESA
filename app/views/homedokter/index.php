@@ -4,7 +4,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-darkn" id="Sidebar">
 
             <!-- Sidebar - Brand -->
-            <a href="#" class="logo navbar-brand"><img src="<?= BASEURL?>/img/dokter/logo-white-bunder.png" alt="" class="logo_white"><span>CareMe</span></a>
+            <a href="#" class="logo navbar-brand"><img src="img/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
@@ -169,7 +169,7 @@
                                     <div class="notify-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Saifudin</p>
@@ -179,7 +179,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -189,7 +189,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -199,7 +199,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -209,7 +209,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -219,7 +219,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -229,7 +229,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -246,7 +246,7 @@
                             <!-- Nav Item - User Information -->
                             <li class="nav-item nav-link dropdown no-arrow mr-70">
                                 <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img class="img-profile rounded-circle" src="<?= BASEURL?>/img/dokter/3.png">
+                                    <img class="img-profile rounded-circle" src="img/3.png">
                                     <span class="ml-2 text-profile">Alif Rahman</span>
                                 </a>
                                 <!-- Dropdown - User Information -->
@@ -274,65 +274,67 @@
 
                 </nav>
 
-                <div class="container-fluid px-4">
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h3 class="font-weight-500">Selamat Siang Dokter</h3>
-                        <ul class="breadcrumb px-4 border-radius-30">
-                            <li class="breadcrumb-color">
-                                <a href="">Home</a>
-                            </li>
-                            <li class="breadcrumb-color">
-                                <a href="" class="now">Dashboard</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="container-card-content-notify mb-4">
-                        <div class="container">
-                            <div class="row">
-                                
-                                <div class="col-lg-4">
-                                    <div class="card card-shadow border-0 border-radius-10">
-                                        <div class="card-body p-4">
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="card-body-icon mb-3">
-                                                    <i class="fas fa-envelope fa-3x message-color"></i>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <h3 class="font-weight-bold card-body-total text-lg mb-1">2</h3>
-                                                    <div class="card-body-subtext">Pesan Belum Dibaca</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-lg-4">
-                                    <div class="card card-shadow border-0 border-radius-10">
-                                        <div class="card-body p-4">
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="card-body-icon mb-3">
-                                                    <i class="fas fa-calendar-alt fa-3x calendar-color"></i>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <h3 class="font-weight-bold card-body-total mb-1">2</h3>
-                                                    <div class="card-body-subtext">Janji Dengan Pasien</div>
+                <div class="content-container">
+                    <div class="container-fluid px-4">
+                        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                            <h3 class="font-weight-500">Selamat Siang Dokter</h3>
+                            <ul class="breadcrumb px-4 border-radius-30">
+                                <li class="breadcrumb-color">
+                                    <a href="">Home</a>
+                                </li>
+                                <li class="breadcrumb-color">
+                                    <a href="" class="now">Dashboard</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="container-card-content-notify mb-4">
+                            <div class="container">
+                                <div class="row">
+                                    
+                                    <div class="col-lg-4">
+                                        <div class="card card-shadow border-0 border-radius-10">
+                                            <div class="card-body p-4">
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="card-body-icon mb-3">
+                                                        <i class="fas fa-envelope fa-3x message-color"></i>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h3 class="font-weight-bold card-body-total text-lg mb-1">2</h3>
+                                                        <div class="card-body-subtext">Pesan Belum Dibaca</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div class="col-lg-4">
-                                    <div class="card card-shadow border-0 border-radius-10">
-                                        <div class="card-body p-4">
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="card-body-icon mb-3">
-                                                    <i class="fas fa-user-injured fa-3x patient-user"></i>
+                                    
+                                    <div class="col-lg-4">
+                                        <div class="card card-shadow border-0 border-radius-10">
+                                            <div class="card-body p-4">
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="card-body-icon mb-3">
+                                                        <i class="fas fa-calendar-alt fa-3x calendar-color"></i>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h3 class="font-weight-bold card-body-total mb-1">2</h3>
+                                                        <div class="card-body-subtext">Janji Dengan Pasien</div>
+                                                    </div>
                                                 </div>
-                                                <div class="col-auto">
-                                                    <h3 class="font-weight-bold card-body-total mb-1">2</h3>
-                                                    <div class="card-body-subtext">Pasien Anda</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4">
+                                        <div class="card card-shadow border-0 border-radius-10">
+                                            <div class="card-body p-4">
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="card-body-icon mb-3">
+                                                        <i class="fas fa-user-injured fa-3x patient-user"></i>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h3 class="font-weight-bold card-body-total mb-1">2</h3>
+                                                        <div class="card-body-subtext">Pasien Anda</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -340,116 +342,116 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-    
-                    <div class="container-card-content mb-4">
-                        <div class="card-title card-title-container p-4">
-                            RIWAYAT KONSULTASI
+        
+                        <div class="container-card-content mb-4">
+                            <div class="card-title card-title-container p-4">
+                                RIWAYAT KONSULTASI
+                            </div>
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Nama</th>
+                                            <th>Waktu</th>
+                                            <th>No Handphone</th>
+                                            <th>Ulasan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Saifudin</td>
+                                            <td>Senin, 27-02-2020, 10.00</td>
+                                            <td>081234567891</td>
+                                            <td>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#reviewModal">LIHAT ULASAN</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Udeen</td>
+                                            <td>Senin, 27-02-2020, 10.00</td>
+                                            <td>081234567891</td>
+                                            <td>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#reviewModal">LIHAT ULASAN</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Sifudeen</td>
+                                            <td>Senin, 27-02-2020, 10.00</td>
+                                            <td>081234567891</td>
+                                            <td>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#reviewModal">LIHAT ULASAN</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Nama</th>
-                                        <th>Waktu</th>
-                                        <th>No Handphone</th>
-                                        <th>Ulasan</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Saifudin</td>
-                                        <td>Senin, 27-02-2020, 10.00</td>
-                                        <td>081234567891</td>
-                                        <td>
-                                            <button class="btn btn-primary" data-toggle="modal" data-target="#reviewModal">LIHAT ULASAN</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Udeen</td>
-                                        <td>Senin, 27-02-2020, 10.00</td>
-                                        <td>081234567891</td>
-                                        <td>
-                                            <button class="btn btn-primary" data-toggle="modal" data-target="#reviewModal">LIHAT ULASAN</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Sifudeen</td>
-                                        <td>Senin, 27-02-2020, 10.00</td>
-                                        <td>081234567891</td>
-                                        <td>
-                                            <button class="btn btn-primary" data-toggle="modal" data-target="#reviewModal">LIHAT ULASAN</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+        
+                        <div class="container-card-content mb-4">
+                            <div class="card-title card-title-container p-4">
+                                JADWAL PERJANJIAN KONSULTASI
+                            </div>
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Nama</th>
+                                            <th>Waktu</th>
+                                            <th>No Handphone</th>
+                                            <th>Aksi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Saifudin</td>
+                                            <td>Senin, 27-02-2020, 10.00</td>
+                                            <td>081234567891</td>
+                                            <td>
+                                                <button class="btn btn-primary">CHAT</button>
+                                                <button class="btn btn-danger">BATAL</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Udeen</td>
+                                            <td>Senin, 27-02-2020, 10.00</td>
+                                            <td>081234567891</td>
+                                            <td>
+                                                <button class="btn btn-primary">CHAT</button>
+                                                <button class="btn btn-danger">BATAL</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Sifudeen</td>
+                                            <td>Senin, 27-02-2020, 10.00</td>
+                                            <td>081234567891</td>
+                                            <td>
+                                                <button class="btn btn-primary">CHAT</button>
+                                                <button class="btn btn-danger">BATAL</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="container-card-content mb-4">
-                        <div class="card-title card-title-container p-4">
-                            JADWAL PERJANJIAN KONSULTASI
-                        </div>
-                        <div class="card-body">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Nama</th>
-                                        <th>Waktu</th>
-                                        <th>No Handphone</th>
-                                        <th>Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Saifudin</td>
-                                        <td>Senin, 27-02-2020, 10.00</td>
-                                        <td>081234567891</td>
-                                        <td>
-                                            <button class="btn btn-primary">CHAT</button>
-                                            <button class="btn btn-danger">BATAL</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Udeen</td>
-                                        <td>Senin, 27-02-2020, 10.00</td>
-                                        <td>081234567891</td>
-                                        <td>
-                                            <button class="btn btn-primary">CHAT</button>
-                                            <button class="btn btn-danger">BATAL</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Sifudeen</td>
-                                        <td>Senin, 27-02-2020, 10.00</td>
-                                        <td>081234567891</td>
-                                        <td>
-                                            <button class="btn btn-primary">CHAT</button>
-                                            <button class="btn btn-danger">BATAL</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        
                     </div>
                     
-                </div>
-                
-                <footer class="bg-white">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Brutal Force Team 2020</span>
+                    <footer class="bg-white">
+                        <div class="container my-auto">
+                            <div class="copyright text-center my-auto">
+                                <span>Copyright &copy; Brutal Force Team 2020</span>
+                            </div>
                         </div>
-                    </div>
-                </footer>
+                    </footer>
+                </div>
 
             </div>
         </div>
