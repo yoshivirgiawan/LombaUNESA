@@ -66,6 +66,14 @@ div {
     box-shadow: none !important;
 }
 
+.small {
+    font-size: 12px !important;
+}
+
+.badge-shadow {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.18) !important;
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -291,6 +299,7 @@ div {
     .sidebar .nav-item .nav-link i {
         font-size: 20px;
         margin-right: 1rem;
+        width: 25px;
     }
     .sidebar .nav-item .nav-link span {
         font-size: 14px;
@@ -859,4 +868,16 @@ div {
     font-size: 10px;
     font-weight: 700;
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+footer {
+    padding: 2rem 0;
+    flex-shrink: 0;
+    margin-top: 4rem;
+}
+
+footer .copyright {
+    line-height: 1;
+    font-size: 1rem;
+    color: #858796;
 }

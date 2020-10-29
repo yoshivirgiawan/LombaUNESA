@@ -3,7 +3,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a href="#" class="logo navbar-brand"><img src="<?= BASEURL?>/img/dokter/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
+            <a href="#" class="logo navbar-brand"><img src="img/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -17,15 +17,18 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-comment"></i>
-                    <span>Pesan</span>
+                <a class="nav-link d-flex justify-content-between align-items-center" href="#">
+                    <div class="d-flex">
+                        <i class="fas fa-comment"></i>
+                        <span>Pesan</span>
+                    </div>
+                    <span class="badge badge-danger badge-pill text-center badge-shadow font-weight-bold small py-1 px-2">14</span>
                 </a>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#">
+                <a class="nav-link" href="#">
                     <i class="fas fa-user-injured"></i>
                     <span>Pasien</span>
                 </a>
@@ -163,7 +166,7 @@
                                     <div class="notify-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Saifudin</p>
@@ -173,7 +176,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -183,7 +186,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -193,7 +196,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -203,7 +206,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -213,7 +216,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -223,7 +226,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="<?= BASEURL?>/img/dokter/3.png" alt="image">
+                                                <img src="img/3.png" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -240,7 +243,7 @@
                             <!-- Nav Item - User Information -->
                             <li class="nav-item nav-link dropdown no-arrow mr-70">
                                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img class="img-profile rounded-circle" src="<?= BASEURL?>/img/dokter/3.png">
+                                    <img class="img-profile rounded-circle" src="img/3.png">
                                     <span class="ml-2 d-none d-lg-inline text-profile">Alif Rahman</span>
                                 </a>
                                 <!-- Dropdown - User Information -->
@@ -286,27 +289,16 @@
                             
                         </div>
                     </div>
-                
-            </div>
-        </div>
-    </div>
+                </div>
 
-    <!-- Review Modal -->
-    <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ulasan dari Udeen</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Mantap babang Alip
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
+                <footer class="bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright &copy; Brutal Force Team 2020</span>
+                        </div>
+                    </div>
+                </footer>
+
             </div>
         </div>
     </div>
