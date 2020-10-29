@@ -71,7 +71,7 @@ div {
 }
 
 .badge-shadow {
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.18) !important;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* Sidebar */
@@ -131,14 +131,6 @@ div {
     content: '\f107';
 }
 
-.sidebar .nav-item .nav-link .badge-counter {
-    position: absolute;
-    transform: scale(0.7);
-    transform-origin: top right;
-    right: .25rem;
-    margin-top: -.25rem;
-}
-
 .sidebar .nav-item .nav-link .img-profile {
     height: 2rem;
     width: 2rem;
@@ -162,8 +154,18 @@ div {
     display: block;
 }
 
+.sidebar .nav-item .nav-link .nav-link-wrapper {
+    display: block;
+    justify-content: unset;
+    align-items: unset;
+}
+
 .sidebar .nav-item.active .nav-link span {
     font-weight: 700;
+}
+
+.sidebar .nav-item.active .nav-link .left {
+    display: flex;
 }
 
 .sidebar .nav-item .collapse {
@@ -296,6 +298,11 @@ div {
         padding: 1rem;
         width: 14rem;
     }
+    .sidebar .nav-item .nav-link .nav-link-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .sidebar .nav-item .nav-link i {
         font-size: 20px;
         margin-right: 1rem;
@@ -354,6 +361,11 @@ div {
         text-align: center;
         padding: 0.75rem 1rem;
         width: 6.5rem;
+    }
+    .sidebar.toggled .nav-item .nav-link .nav-link-wrapper {
+        display: block;
+        justify-content: unset;
+        align-items: unset;
     }
     .sidebar.toggled .nav-item .nav-link span {
         font-size: 0.65rem;

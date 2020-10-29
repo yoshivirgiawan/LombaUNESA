@@ -1,29 +1,31 @@
 
 
     <div id="wrapper" class="d-flex">
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-darkn" id="Sidebar">
 
             <!-- Sidebar - Brand -->
             <a href="#" class="logo navbar-brand"><img src="img/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Dashboard</span>
+                </a>
             </li>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link d-flex justify-content-between align-items-center" href="#">
-                    <div class="d-flex">
-                        <i class="fas fa-comment"></i>
-                        <span>Pesan</span>
+                <a class="nav-link" href="#">
+                    <div class="nav-link-wrapper">
+                        <div class="left">
+                            <i class="fas fa-comment"></i>
+                            <span>Pesan</span>
+                        </div>
+                        
+                        <span class="badge badge-danger badge-pill text-center badge-shadow font-weight-bold small">2</span>
                     </div>
-                    <span class="badge badge-danger badge-pill text-center badge-shadow font-weight-bold small py-1 px-2">14</span>
+                    
                 </a>
             </li>
 
@@ -41,7 +43,7 @@
                     <i class="far fa-calendar-alt"></i>
                     <span>Janji</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#Sidebar">
                     <div class="py-2 collapse-inner">
                         <a class="collapse-item" href="login.html">Belum Diverifikasi</a>
                         <a class="collapse-item" href="register.html">Sudah Diverifikasi</a>
