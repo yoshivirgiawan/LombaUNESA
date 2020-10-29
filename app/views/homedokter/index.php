@@ -4,7 +4,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a href="#" class="logo navbar-brand"><img src="<?= BASEURL?>/img/dokter/logo-white.png" alt="" class="logo_white"><span>CareMe</span></a>
+            <a href="#" class="logo navbar-brand"><img src="<?= BASEURL?>/img/dokter/logo-white-bunder.png" alt="" class="logo_white"><span>CareMe</span></a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
