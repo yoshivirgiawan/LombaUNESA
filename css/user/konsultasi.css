@@ -1,0 +1,29 @@
+.k-main {
+    /* margin-top: 100px; */
+}
+
+.k-navbar {
+    background: linear-gradient(128deg, rgba(31, 64, 127, 1) 0%, rgba(38, 147, 255, 1) 79%) !important;
+
+}
+
+.k-main-sub>div {
+    border: 1px solid grey;
+    border-radius: 5px;
+    min-height: 400px;
+}
+
+.k-search {
+    background-color: rgb(238, 237, 237);
+    padding: 20px;
+    padding-top: 60px !important;
+}
+
+.k-search-input {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.k-main-content {
+    padding: 0 15px;
+}
