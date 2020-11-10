@@ -103,6 +103,7 @@ header.masthead .intro-text .intro-heading {}
     padding-top: 5px !important;
     padding-bottom: 5px !important;
     background: linear-gradient(128deg, rgba(31, 64, 127, 1) 0%, rgba(38, 147, 255, 1) 79%);
+    /* border-radius: 0 0 20px 20px; */
 
 }
 

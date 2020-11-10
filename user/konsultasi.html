@@ -56,9 +56,10 @@
                         <div class="row k-search mb-4">
                             <div class="k-search-input container">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
+                                        placeholder="cari Konsultan">
                                     <div class="input-group-append">
-                                        <span class="input-group-text">Cari</span>
+                                        <span class="input-group-text k-search-button">Cari</span>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +67,7 @@
 
                         <div class="d-flex justify-content-around">
                             <div class="col k-profil">
-                                <div class="card">
+                                <div class="card kartu">
                                     <div class="card-body">
                                         <img src="../img/konsul/pp-man.jpg" alt="" width="50%"
                                             class="rounded-circle card-img-top"><br><br>
@@ -77,9 +78,36 @@
                                         <li class="list-group-item">Cras justo odio</li>
                                     </ul>
                                     <div class="card-body">
-                                        <a href="#" class="card-link">
-                                            <button class="btn btn-primary">Chat</button>
-                                        </a>
+
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal">
+                                            Konsul
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>

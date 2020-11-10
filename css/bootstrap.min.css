@@ -2348,9 +2348,9 @@ pre code {
 .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #ffeeb5;
+    border-color: #8abff7;
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 54, .25)
+    box-shadow: 0 0 0 .2rem #007bff15;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -5467,7 +5467,7 @@ input[type=submit].btn-block {
     padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #fed136;
+    color: #007bff;
     background-color: #fff;
     border: 1px solid #dee2e6
 }
@@ -5483,7 +5483,7 @@ input[type=submit].btn-block {
 .page-link:focus {
     z-index: 3;
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 54, .25)
+    box-shadow: 0 0 0 .2rem #007bff29
 }
 
 .page-item:first-child .page-link {
@@ -12050,8 +12050,8 @@ section h3.section-subheading {
 
 .btn-primary {
     color: #fff;
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #007bff;
+    border-color: #007bff
 }
 
 .btn-primary:active,
