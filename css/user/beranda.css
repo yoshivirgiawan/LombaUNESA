@@ -53,13 +53,15 @@ body {
 /* HEADER */
 .us-bg-header {
     background-image: url(../../img/header.jpg);
+    /* width: 500px; */
+    /* background: rgba(31, 64, 127, 1); */
 }
 
 .us-header {
     background-color: #4b4b4b7e !important;
     padding: 30px;
     padding-bottom: 0 !important;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     display: inline-block;
 }
 
@@ -69,7 +71,7 @@ body {
 }
 
 .intro-text {
-    cpadding-top: 10px important;
+    /* padding-top: 10px; */
 }
 
 .button {
@@ -100,7 +102,7 @@ header.masthead .intro-text .intro-heading {}
 .us-navbar {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
-    background-color: rgba(0, 0, 0, 0) !important;
+    background: linear-gradient(128deg, rgba(31, 64, 127, 1) 0%, rgba(38, 147, 255, 1) 79%);
 
 }
 
@@ -155,7 +157,7 @@ header.masthead .intro-text .intro-heading {}
 }
 
 .us-intro {
-    padding-top: 150px !important;
+    padding-top: 0px !important;
 }
 
 .us-ex-here {
@@ -182,9 +184,34 @@ header.masthead .intro-text .intro-heading {}
     padding: 10px !important;
 }
 
+/* carousel */
+.u-karosel {
+    /* background-color: rgb(59, 220, 38); */
+    border-bottom: 1px solid grey;
+    padding-top: 62px;
+    padding-bottom: 10px;
+    /* height: 500px; */
+    margin-bottom: 60px;
+}
+
+.u-karosel .owl-carousel .item {
+    background-color: rgb(211, 211, 211);
+
+    border-radius: 5px;
+}
+
+.u-karosel-left:hover {
+    background: linear-gradient(90deg, rgba(31, 65, 127, 0.542) 0%, rgba(38, 146, 255, 0) 79%)
+}
+
+/* .item h4{
+    display: inline-block;
+} */
+
 /* FOOTER */
 footer {
     background-color: rgb(243, 243, 243);
+    background-color: ;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16),
         0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }

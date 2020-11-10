@@ -1,13 +1,14 @@
 /*!
-  * Bootstrap v4.5.2 (https://getbootstrap.com/)
-  * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-  */
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('popper.js')) :
-  typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.bootstrap = {}, global.jQuery, global.Popper));
-}(this, (function (exports, $, Popper) { 'use strict';
+    typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.bootstrap = {}, global.jQuery, global.Popper));
+}(this, (function (exports, $, Popper) {
+  'use strict';
 
   $ = $ && Object.prototype.hasOwnProperty.call($, 'default') ? $['default'] : $;
   Popper = Popper && Object.prototype.hasOwnProperty.call(Popper, 'default') ? Popper['default'] : Popper;
@@ -253,7 +254,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Alert = /*#__PURE__*/function () {
+  var Alert = /*#__PURE__*/ function () {
     function Alert(element) {
       this._element = element;
     } // Getters
@@ -415,7 +416,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Button = /*#__PURE__*/function () {
+  var Button = /*#__PURE__*/ function () {
     function Button(element) {
       this._element = element;
     } // Getters
@@ -655,7 +656,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Carousel = /*#__PURE__*/function () {
+  var Carousel = /*#__PURE__*/ function () {
     function Carousel(element, config) {
       this._items = null;
       this._interval = null;
@@ -1203,7 +1204,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Collapse = /*#__PURE__*/function () {
+  var Collapse = /*#__PURE__*/ function () {
     function Collapse(element, config) {
       this._isTransitioning = false;
       this._element = element;
@@ -1586,7 +1587,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Dropdown = /*#__PURE__*/function () {
+  var Dropdown = /*#__PURE__*/ function () {
     function Dropdown(element, config) {
       this._element = element;
       this._popper = null;
@@ -2084,7 +2085,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Modal = /*#__PURE__*/function () {
+  var Modal = /*#__PURE__*/ function () {
     function Modal(element, config) {
       this._config = this._getConfig(config);
       this._element = element;
@@ -2328,11 +2329,11 @@
       var _this5 = this;
 
       $(document).off(EVENT_FOCUSIN) // Guard against infinite focus loop
-      .on(EVENT_FOCUSIN, function (event) {
-        if (document !== event.target && _this5._element !== event.target && $(_this5._element).has(event.target).length === 0) {
-          _this5._element.focus();
-        }
-      });
+        .on(EVENT_FOCUSIN, function (event) {
+          if (document !== event.target && _this5._element !== event.target && $(_this5._element).has(event.target).length === 0) {
+            _this5._element.focus();
+          }
+        });
     };
 
     _proto._setEscapeEvent = function _setEscapeEvent() {
@@ -2848,7 +2849,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Tooltip = /*#__PURE__*/function () {
+  var Tooltip = /*#__PURE__*/ function () {
     function Tooltip(element, config) {
       if (typeof Popper === 'undefined') {
         throw new TypeError('Bootstrap\'s tooltips require Popper.js (https://popper.js.org/)');
@@ -3522,7 +3523,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Popover = /*#__PURE__*/function (_Tooltip) {
+  var Popover = /*#__PURE__*/ function (_Tooltip) {
     _inheritsLoose(Popover, _Tooltip);
 
     function Popover() {
@@ -3698,7 +3699,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var ScrollSpy = /*#__PURE__*/function () {
+  var ScrollSpy = /*#__PURE__*/ function () {
     function ScrollSpy(element, config) {
       var _this = this;
 
@@ -3982,7 +3983,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Tab = /*#__PURE__*/function () {
+  var Tab = /*#__PURE__*/ function () {
     function Tab(element) {
       this._element = element;
     } // Getters
@@ -4210,7 +4211,7 @@
    * ------------------------------------------------------------------------
    */
 
-  var Toast = /*#__PURE__*/function () {
+  var Toast = /*#__PURE__*/ function () {
     function Toast(element, config) {
       this._element = element;
       this._config = this._getConfig(config);
@@ -4404,7 +4405,9 @@
   exports.Tooltip = Tooltip;
   exports.Util = Util;
 
-  Object.defineProperty(exports, '__esModule', { value: true });
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
 
 })));
 //# sourceMappingURL=bootstrap.js.map
