@@ -1,3 +1,9 @@
+/* #007bff */
+
+body {
+    box-sizing: border-box !important;
+}
+
 .k-main {
     padding-top: 70px !important;
 }

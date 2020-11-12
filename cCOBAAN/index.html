@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="language" content="en">
+<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+<meta name="theme-color" contents="#03a9f4">
+<meta name="apple-mobile-web-app-title" content="YAZIO">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+<meta name="application-name" content="YAZIO"> -->
+
+    <!-- <link rel="icon" href="https://www.yazio.com/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://images.yazio.com/yz-app-icon.png">
+<link rel="apple-touch-icon-precomposed" href="https://images.yazio.com/yz-app-icon.png">
+<link rel="android-touch-icon" href="https://images.yazio.com/yz-app-icon.png">
+<link rel="mask-icom" href="https://images.yazio.com/yz-app-icon.png"> -->
+
+    <!-- <meta name="robots" content="index, follow">
+<meta name="title" content="BMI Calculator: Calculate your personal BMI - YAZIO">
+<meta name="description" content="With the BMI Calculator from YAZIO, you can calculate your current and ideal BMI (Body Mass Index). It&#039;s perfect for men, women and children!">
+<meta name="yazio-apple-itunes-app" content="app-id=946099227">
+<meta name="yazio-google-play-app" content="app-id=com.yazio.android&amp;referrer=utm_source%3Dyazio.com%26utm_medium%3Dapp-banner">
+<meta property="og:site_name" content="YAZIO">
+<meta property="og:url" content="https://www.yazio.com/en/bmi-calculator">
+<meta property="og:image" content="https://assets.yazio.com/frontend/general/yazio-og-image.png">
+<meta property="og:type" content="website">
+<meta property="og:description" content="With the BMI Calculator from YAZIO, you can calculate your current and ideal BMI (Body Mass Index). It&#039;s perfect for men, women and children!">
+<meta property="og:title" content="BMI Calculator: Calculate your personal BMI - YAZIO"> -->
+
+    <!-- <link rel="canonical" href="https://www.yazio.com/en/bmi-calculator">
+<link rel="alternate" href="https://www.yazio.com/en/bmi-calculator" hreflang="en">
+<link rel="alternate" href="https://www.yazio.com/fr/calcul-imc" hreflang="fr">
+<link rel="alternate" href="https://www.yazio.com/de/bmi-rechner" hreflang="de">
+<link rel="alternate" href="https://www.yazio.com/it/calcolatore-bmi" hreflang="it">
+<link rel="alternate" href="https://www.yazio.com/pt/calculadora-imc" hreflang="pt">
+<link rel="alternate" href="https://www.yazio.com/es/calculadora-imc" hreflang="es"> -->
+    <link rel="stylesheet" type="text/css" href="scss1.css">
+    <title>BMI Calculator: Calculate your personal BMI - YAZIO</title>
+
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <script>
+        (function (a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y;
+            h.start = 1 * new Date;
+            h.end = i = function () {
+                s.className = s.className.replace(RegExp(' ?' + y), '')
+            };
+            (a[n] = a[n] || []).hide = h;
+            setTimeout(function () {
+                i();
+                h.end = null
+            }, c);
+            h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 2000, {
+            'OPT-WG2KMPN': true
+        });
+    </script>
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-WG2KMPN"
+        onerror="dataLayer.hide.end && dataLayer.hide.end()"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6126022-1"></script>
+    <script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-6126022-1', {
+            'anonymize_ip': true,
+            'optimize_id': 'OPT-WG2KMPN'
+        });
+    </script>
+
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '364006397638590');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1"
+            src="https://www.facebook.com/tr?id=364006397638590&ev=PageView&noscript=1" /></noscript>
+    <link href="https://www.yazio.com/assets/main-scripts-v2-0424e6ce.css" rel="stylesheet" />
+    <script id="asyncfont">
+        /*!
+     loadCSS: load a CSS file asynchronously.
+     [c]2014 @scottjehl, Filament Group, Inc.
+     Licensed MIT
+     */
+        function loadCSS(e, n, o, t) {
+            "use strict";
+            var d = window.document.createElement("link"),
+                i = n || window.document.getElementsByTagName("script")[0],
+                s = window.document.styleSheets;
+            return d.rel = "stylesheet", d.href = e, d.media = "only x", t && (d.onload = t), i.parentNode.insertBefore(
+                d, i), d.onloadcssdefined = function (n) {
+                for (var o, t = 0; t < s.length; t++) s[t].href && s[t].href.indexOf(e) > -1 && (o = !0);
+                o ? n() : setTimeout(function () {
+                    d.onloadcssdefined(n)
+                })
+            }, d.onloadcssdefined(function () {
+                d.media = o || "all"
+            }), d
+        }
+        loadCSS("https://www.yazio.com/assets/asyncfont-latin-7c1c90e6.css", document.getElementById('asyncfont'));
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="yazio-logo-link" href="https://www.yazio.com/en">
+                    <img src="https://assets.yazio.com/frontend/images/yazio-logo.svg"
+                        class="navbar-brand header-brand_v2" alt="YAZIO Logo" type="image/svg+xml" />
+                </a>
+                <button class="navbar-toggler search-button_v2 on">
+                    <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-search" class="icon-svg"
+                        alt="Search YAZIO" type="image/svg+xml" />
+                </button>
+                <button class="navbar-toggler menu-button_v2 hamburger hamburger--slider" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="navbar-collapse full-width hidden" id="navbarCollapseContent">
+                    <div class="navbar-nav mr-auto mt-lg-0">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <hr class="top-separator-line_v2">
+                                <form action="https://www.yazio.com/en/search" method="get"
+                                    class="search-bar my-2 my-lg-0 form-group has-search">
+                                    <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-search"
+                                        class="icon-svg search-icon" role="presentation" type="image/svg+xml" />
+                                    <input type="text" id="q" name="q" class="form-control input" value=""
+                                        placeholder="Search YAZIO" required="required">
+                                </form>
+                                <hr class="search-separator-line_v2">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                                <div class="nav-item active dropdown" id="about-us-wrapper">
+                                    <div class="nav-link d-flex align-items-center" href="#"
+                                        id="navbarAboutUsDropdownLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        About Us
+                                        <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                            class="icon-svg dropdown-toggle ml-4" role="presentation"
+                                            type="image/svg+xml" />
+                                        <div class="pill blue hiring nowrap" id="hiring-pill">We're hiring!</div>
+                                    </div>
+                                    <div class="dropdown-menu js-desktop-auto-expand"
+                                        aria-labelledby="navbarAboutUsDropdownLink">
+                                        <a class="d-flex align-items-center dropdown-item font-body"
+                                            href="https://www.yazio.com/en/about-us">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">About us</p>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item font-body" href="/en/jobs">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">Jobs</p>
+                                            <div class="pill blue">17 </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item font-body"
+                                            href="https://www.yazio.com/en/press">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">Press</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                                <div class="nav-item">
+                                    <a class="nav-link" href="https://www.yazio.com/en/success-stories">Success
+                                        Stories</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class="nav-link" href="https://www.yazio.com/en/foods">Foods</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class="nav-link" href="https://help.yazio.com/hc/en-us" target="_blank">Help</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                                <div class="nav-item active">
+                                    <div class="nav-link" href="#" id="navbarCalculatorsDropdownLink"
+                                        data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                                        Calculators
+                                        <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                            class="icon-svg dropdown-toggle" role="presentation" type="image/svg+xml" />
+                                    </div>
+                                    <div class="dropdown-menu js-desktop-auto-expand"
+                                        aria-labelledby="navbarCalculatorsDropdownLink">
+                                        <a class="d-flex align-items-center dropdown-item font-body"
+                                            href="https://www.yazio.com/en/bmi-calculator">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">Body Mass Index (BMI) Calculator</p>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item font-body"
+                                            href="https://www.yazio.com/en/ideal-weight-calculator">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">Ideal Body Weight Calculator</p>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item font-body"
+                                            href="https://www.yazio.com/en/calorie-intake-calculator">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">Daily Calorie Intake Calculator</p>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item font-body"
+                                            href="https://www.yazio.com/en/calories-burned-calculator">
+                                            <img class="icon-svg icon-chevron-right-dropdown"
+                                                src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                role="presentation" />
+                                            <p class="font-body d-inline p-0 ml-4">Calories Burned Calculator</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column">
+                                <div class="social-icons_v2">
+                                    <a href="https://www.facebook.com/yazio" class="text-decoration-none"
+                                        target="_blank"
+                                        onclick="yz_events.sendGaEvent('SocialIcons', 'Menu', 'Facebook');">
+                                        <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-facebook"
+                                            class="icon-svg" alt="Facebook" type="image/svg+xml" />
+                                    </a>
+                                    <a href="https://www.instagram.com/yazio/" class="text-decoration-none"
+                                        target="_blank"
+                                        onclick="yz_events.sendGaEvent('SocialIcons', 'Menu', 'Instagram');">
+                                        <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-instagram"
+                                            class="icon-svg" alt="Instagram" type="image/svg+xml" />
+                                    </a>
+                                    <a href="https://www.pinterest.com/Yazio/" class="text-decoration-none"
+                                        target="_blank"
+                                        onclick="yz_events.sendGaEvent('SocialIcons', 'Menu', 'Pinterest');">
+                                        <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-pinterest"
+                                            class="icon-svg" alt="Pinterest" type="image/svg+xml" />
+                                    </a>
+                                    <a href="https://www.youtube.com/c/yazio" class="text-decoration-none"
+                                        target="_blank"
+                                        onclick="yz_events.sendGaEvent('SocialIcons', 'Menu', 'Youtube');">
+                                        <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-youtube"
+                                            class="icon-svg clear-margin-right" alt="Youtube" type="image/svg+xml" />
+                                    </a>
+                                </div>
+                                <hr class="menu-footer-separator">
+                                <div class="navigation-footer_v2">
+                                    <div class="language-select-wrapper_v2">
+                                        <div class="dropup dropdown-popup" id="lsdrop">
+                                            <a class="dropdown-toggle nav-item" id="language-select-dropdown"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-globe"
+                                                    class="icon-svg globe-icon" role="presentation"
+                                                    type="image/svg+xml" />
+                                                <div class="selected-language_v2 font-body" id="language-select-label">
+                                                    English</div>
+                                                <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-chevron-right"
+                                                    class="icon-svg dropdown-toggle" id="lsdrop-chevron"
+                                                    type="image/svg+xml" />
+                                            </a>
+                                            <div class="dropdown-menu language-select-dropdown_v2"
+                                                aria-labelledby="language-select-dropdown">
+                                                <a class="d-flex flex-row item" href="https://www.yazio.com/en"
+                                                    onclick="yz_events.sendGaEvent('', '', '');">
+                                                    <div class="dropdown-item font-body d-inline p-0" role="button"
+                                                        aria-pressed="true">
+                                                        English (English)
+                                                    </div>
+                                                    <object class="icon-svg chevron" type="image/svg+xml"
+                                                        data="https://assets.yazio.com/frontend/images/icons.svg#selected-language-chevron"></object>
+                                                </a>
+                                                <a class="d-flex flex-row item" href="https://www.yazio.com/fr"
+                                                    onclick="yz_events.sendGaEvent('', '', '');">
+                                                    <div class="dropdown-item font-body d-inline p-0" role="button"
+                                                        aria-pressed="false">
+                                                        French (Français)
+                                                    </div>
+                                                </a>
+                                                <a class="d-flex flex-row item" href="https://www.yazio.com/de"
+                                                    onclick="yz_events.sendGaEvent('', '', '');">
+                                                    <div class="dropdown-item font-body d-inline p-0" role="button"
+                                                        aria-pressed="false">
+                                                        German (Deutsch)
+                                                    </div>
+                                                </a>
+                                                <a class="d-flex flex-row item" href="https://www.yazio.com/it"
+                                                    onclick="yz_events.sendGaEvent('', '', '');">
+                                                    <div class="dropdown-item font-body d-inline p-0" role="button"
+                                                        aria-pressed="false">
+                                                        Italian (Italiano)
+                                                    </div>
+                                                </a>
+                                                <a class="d-flex flex-row item" href="https://www.yazio.com/pt"
+                                                    onclick="yz_events.sendGaEvent('', '', '');">
+                                                    <div class="dropdown-item font-body d-inline p-0" role="button"
+                                                        aria-pressed="false">
+                                                        Portuguese (Português)
+                                                    </div>
+                                                </a>
+                                                <a class="d-flex flex-row item" href="https://www.yazio.com/es"
+                                                    onclick="yz_events.sendGaEvent('', '', '');">
+                                                    <div class="dropdown-item font-body d-inline p-0" role="button"
+                                                        aria-pressed="false">
+                                                        Spanish (Español)
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="store-badges_v2">
+                                        <a href="https://itunes.apple.com/app/apple-store/id946099227?pt=9774818&amp;ct=yaziocom-menu&amp;mt=8"
+                                            class="js-ios-badge-link hidden" target="_blank"
+                                            onclick="yz_events.sendGaEvent('AppStore', 'Menu', 'iOS')">
+                                            <img src="https://assets.yazio.com/frontend/images/button-app-store-en.svg"
+                                                alt="YAZIO iPhone &amp; iPad App on the App Store"
+                                                title="YAZIO iPhone &amp; iPad App on the App Store"
+                                                id="store-badges-menu-ios" class="store-img_v2 small" width="200"
+                                                height="60" type="image/svg+xml">
+                                        </a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.yazio.android&amp;referrer=utm_source%3Dyaziocom%26utm_medium%3Dbadge%26utm_campaign%3Dmenu%26anid%3Dadmob"
+                                            class="js-android-badge-link hidden" target="_blank"
+                                            onclick="yz_events.sendGaEvent('AppStore', 'Menu', 'Android')">
+                                            <img src="https://assets.yazio.com/frontend/images/button-play-store-en.svg"
+                                                alt="YAZIO Android App on Google Play"
+                                                title="YAZIO Android App on Google Play" id="store-badges-menu-android"
+                                                class="small store-badge-ml" type="image/svg+xml">
+                                        </a>
+                                        <p
+                                            class="alt-store-ios hidden font-caption mt-2 text-center d-lg-none clear-margin-bottom">
+                                            Also for <a class="js-ios-text-link textlink light font-caption"
+                                                target="_blank"
+                                                href="https://itunes.apple.com/app/apple-store/id946099227?pt=9774818&ct=yaziocom-menu&mt=8">iOS</a>
+                                        </p>
+                                        <p
+                                            class="alt-store-android hidden font-caption mt-2 text-center d-lg-none clear-margin-bottom">
+                                            Also for <a class="js-android-text-link textlink light font-caption"
+                                                target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=com.yazio.android&referrer=utm_source%3Dyaziocom%26utm_medium%3Dbadge%26utm_campaign%3Dmenu%26anid%3Dadmob">Android</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="spacer-below-footer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="bmi-calc-container calculators overflow-hidden">
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="mb-16">Body Mass Index (BMI) Calculator</h1>
+                        <p class="font-subtitle light mt-0 mb-0">For accurate calculation, we need some basic info about
+                            you</p>
+                    </div>
+                </div>
+                <div class="row mt-0 mt-md-32">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="calculator-step" id="calculator-step-1">
+                            <hr class="d-block d-md-none">
+                            <div class="line-dot">
+                                <div class="dot">1</div>
+                            </div>
+                            <h2 class="mb-0 mb-md-32">What is your gender?</h2>
+                            <div class="mt-16">
+                                <div class="icn-btn-wrapper" id="gender-icn-btn-wrapper">
+                                    <div id="calculator-gender-male-input"
+                                        class="img-btn-container no-hover js-input-field" tabindex="1"
+                                        data-abbreviation="m" data-value="5">
+                                        <img class="icon-svg"
+                                            src="https://assets.yazio.com/frontend/images/icons.svg#icon-male"
+                                            alt="Male" type="image/svg+xml">
+                                        <div class="choice-btn yz-btn grey font-subtitle">Male</div>
+                                    </div>
+                                    <div id="calculator-gender-female-input"
+                                        class="img-btn-container no-hover js-input-field ml-32 ml-md-16 ml-lg-32"
+                                        tabindex="2" data-abbreviation="f" data-value="-161">
+                                        <img class="icon-svg"
+                                            src="https://assets.yazio.com/frontend/images/icons.svg#icon-female"
+                                            alt="Female" type="image/svg+xml">
+                                        <div class="choice-btn yz-btn grey font-subtitle">Female</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="calculator-step" id="calculator-step-2">
+                            <hr class="d-block d-md-none">
+                            <div class="line-dot">
+                                <div class="dot">2</div>
+                            </div>
+                            <h2 class="mb-0 mb-md-32">How old are you?</h2>
+                            <div class="mt-16">
+                                <div class="input-label-wrapper">
+                                    <div class="mt16-32">
+                                        <input type="tel"
+                                            class="input dual-number js-input-field invalid-highlight js-max-length"
+                                            data-decimals="false" placeholder="21" maxlength="3"
+                                            id="calculator-step-age" name="calculator-step-age" pattern="[0-9]*"
+                                            value="" tabindex="0" inputmode="tel" />
+                                        <label for="calculator-step-age" class="label invalid-highlight">Years</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mt-md-32">
+                        <div class="calculator-step" id="calculator-step-3">
+                            <hr class="d-block d-md-none">
+                            <div class="line-dot">
+                                <div class="dot">3</div>
+                            </div>
+                            <h2 class="mb-0 mb-md-32">How tall are you?</h2>
+                            <div class="mt-16">
+                                <div class="d-flex flex-column">
+                                    <div class="c-toggle d-inline-block order-0 order-md-1">
+                                        <input type="radio" class="radio-button calculator-step-height-choice"
+                                            id="calculator-step-height-unit-cm" data-factor="100.0" data-unit="cm"
+                                            name="height[metric]" required="required" value="cm" pattern="[0-9]*">
+                                        <label for="calculator-step-height-unit-cm">cm</label>
+                                        <input type="radio" class="radio-button calculator-step-height-choice"
+                                            id="calculator-step-height-unit-ft" checked data-factor="3.2808"
+                                            data-unit="ft / in" name="height[metric]" required="required" value="ft"
+                                            pattern="[0-9]*">
+                                        <label for="calculator-step-height-unit-ft">ft/in</label>
+                                    </div>
+                                    <div class="input-label-wrapper order-1 order-md-0 ">
+                                        <div id="calculator-step-height-cm-input-wrapper">
+                                            <input type="tel" id="calculator-step-height-cm" name="height[cm]"
+                                                class="centered js-input-field input invalid-highlight js-max-length"
+                                                placeholder="170" value="" maxLength="3" data-decimals="false"
+                                                required="" pattern="[0-9]*" tabindex="0" inputmode="tel">
+                                            <label class="label invalid-highlight" for="step4[height_cm]">cm</label>
+                                        </div>
+                                        <div class="hidden" id="calculator-step-height-ft-input-wrapper">
+                                            <div class="metric-label-input-wrapper d-inline-block">
+                                                <input type="tel" id="calculator-step-height-feet" name="height[ft]"
+                                                    class="js-input-field input dual-number invalid-highlight js-max-length"
+                                                    data-factor="3.2808" value="" maxLength="1" data-decimals="false"
+                                                    required="" placeholder="5" pattern="[1-9]*" tabindex="0"
+                                                    inputmode="tel">
+                                                <label for="height[ft]" class="invalid-highlight">ft</label>
+                                            </div>
+                                            <div class="metric-label-input-wrapper d-inline-block">
+                                                <input type="tel" id="calculator-step-height-inch" name="height[in]"
+                                                    class="margin-left-32 js-input-field input dual-number invalid-highlight js-max-length"
+                                                    data-factor="39.37" value="" maxLength="2" data-decimals="false"
+                                                    required="" placeholder="7" pattern="[0-9]*" tabindex="0"
+                                                    inputmode="tel">
+                                                <label for="height[in]" class="invalid-highlight">in</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mt-md-32">
+                        <div class="calculator-step" id="calculator-step-4">
+                            <hr class="d-block d-md-none">
+                            <div class="line-dot">
+                                <div class="dot">4</div>
+                            </div>
+                            <h2 class="mb-0 mb-md-32">How much do you weigh?</h2>
+                            <div class="mt-16">
+                                <div class="d-flex flex-column">
+                                    <div class="c-toggle d-inline-block order-0 order-md-1">
+                                        <input type="radio" class="radio-button calculator-step-weight-choice"
+                                            id="calculator-step-weight-unit-kg" name="weight[metric]" data-factor="1"
+                                            data-placeholder="69" required="" value="kg" pattern="[0-9]*">
+                                        <label for="calculator-step-weight-unit-kg">
+                                            <span>kg</span>
+                                        </label>
+                                        <input type="radio" class="radio-button calculator-step-weight-choice"
+                                            id="calculator-step-weight-unit-lb" checked name="weight[metric]"
+                                            data-factor="2.2046" data-placeholder="152" required="" value="lb"
+                                            pattern="[0-9]*">
+                                        <label for="calculator-step-weight-unit-lb">
+                                            <span>lb</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-label-wrapper order-1 order-md-0">
+                                        <div class="kg-input-wrapper">
+                                            <input type="tel" id="calculator-step-weight-input-kg" name="weight"
+                                                class="d-inline-block centered js-input-field input form-control invalid-highlight js-max-length"
+                                                placeholder="69" maxLength="5" data-decimals="true" required=""
+                                                pattern="[0-9]*" value="" tabindex="0" inputmode="tel">
+                                            <label class="label invalid-highlight"
+                                                for="calculator-step-weight-input-kg">
+                                                <span>kg</span>
+                                            </label>
+                                        </div>
+                                        <div class="lbs-input-wrapper hidden">
+                                            <input type="tel" id="calculator-step-weight-input-lbs" name="weight"
+                                                class="d-inline-block centered js-input-field input form-control invalid-highlight js-max-length"
+                                                placeholder="152" maxLength="6" data-decimals="true" required=""
+                                                pattern="[0-9]*" value="" tabindex="0" inputmode="tel">
+                                            <label class="label invalid-highlight"
+                                                for="calculator-step-weight-input-lbs">
+                                                <span>lbs</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 form-error-wrapper centered hidden">
+                        <div class="yz-alert yz-alert-danger">
+                            <img src="https://assets.yazio.com/frontend/images/icons.svg#icon-danger"
+                                class="icon-svg alert-icon" role="presentation" type="image/svg+xml" />
+                            <p class="alert-text">
+                                <strong>Oops</strong>, something went wrong! Please correct the marked fields.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="yz-btn pink js-submit-button calc-submit" data-delimiter-thousand=","
+                            data-delimiter-decimal=".">Calculate your BMI</button>
+                    </div>
+                </div>
+                <hr>
+            </section>
+            <section>
+                <div class="position-relative calculator-result-wrapper hidden">
+                    <h2 class="mt-0 mb-lg-64">Your Personal Result</h2>
+                    <div class="d-flex flex-row position-absolute overflow-hidden justify-content-center flex-nowrap calculator-line-graph"
+                        id="calculator-line-graph">
+                        <div class="calculator-line-graph-section underweight">
+                            <p class="font-subtitle mb-0">underweight</p>
+                            <span class="font-subtitle light mb-0" id="bmi-underweight-min">54.0</span> - <span
+                                class="font-subtitle light" id="bmi-underweight-max">120.0</span>
+                            <div class="d-flex flex-column underweight position-relative">
+                                <div class="color-strip"></div>
+                                <div class="weight-max-threshold">
+                                    <div id="underweight-max-weight">
+                                        18.4
+                                    </div>
+                                    <div class="weight-label weight-tranche-max-unit">
+                                        lbs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculator-line-graph-section healthy">
+                            <p class="font-subtitle mb-0">healthy weight</p>
+                            <span class="font-subtitle light mb-0" id="bmi-healthy-min">69.0</span> - <span
+                                class="font-subtitle light" id="bmi-healthy-max">152.0</span>
+                            <div class="d-flex flex-column healthy position-relative">
+                                <div class="color-strip"></div>
+                                <div class="weight-threshold-separator"></div>
+                                <div class="weight-max-threshold">
+                                    <div id="healthy-max-weight">
+                                        24.9
+                                    </div>
+                                    <div class="weight-label weight-tranche-max-unit">
+                                        lbs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculator-line-graph-section overweight">
+                            <p class="font-subtitle mb-0">overweight</p>
+                            <span class="font-subtitle light mb-0" id="bmi-overweight-min">83.0</span> - <span
+                                class="font-subtitle light" id="bmi-overweight-max">183.0</span>
+                            <div class="d-flex flex-column overweight position-relative">
+                                <div class="color-strip"></div>
+                                <div class="weight-max-threshold">
+                                    <div id="overweight-max-weight">
+                                        29.9
+                                    </div>
+                                    <div class="weight-label weight-tranche-max-unit">
+                                        lbs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculator-line-graph-section obese">
+                            <p class="font-subtitle mb-0">obese</p>
+                            <span class="font-subtitle light mb-0" id="bmi-obese-min">110.0</span> - <span
+                                class="font-subtitle light" id="bmi-obese-max">242.0</span>
+                            <div class="d-flex flex-column obese position-relative">
+                                <div class="color-strip"></div>
+                                <div class="weight-max-threshold">
+                                    <div id="obese-max-weight">
+                                        39.9
+                                    </div>
+                                    <div class="weight-label weight-tranche-max-unit">
+                                        lbs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calculator-line-graph-section morbid">
+                            <p class="font-subtitle mb-0">morbidly obese</p>
+                            <span class="font-subtitle light mb-0"><span class="font-subtitle light"
+                                    id="bmi-morbid-min">40.0</span> +</span>
+                            <div class="d-flex flex-column morbid">
+                                <div class="color-strip"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculator-line-graph-result-popup">
+                        <p class="mt-2 mb-0 font-subtitle light result-popup-label">Your BMI</p>
+                        <div>
+                            <p class="mt-0 mb-0 font-subtitle result-popup-value">22.5</p>
+                            <div class="indicator"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-flex justify-content-around flex-column flex-md-row result-main-facts">
+                            <div class="flex-column pt-16">
+                                <div class="font-subtitle mt-0">Your personal BMI</div>
+                                <div class="font-subtitle mt-0 light" id="bmi-number-personal">22.5</div>
+                            </div>
+                            <div class="flex-column pt-16">
+                                <div class="font-subtitle mt-0">Your current weight</div>
+                                <div class="flex-row">
+                                    <span class="font-subtitle light bmi-number-actual-weight">
+                                        152.0
+                                    </span>
+                                    <span class="font-subtitle weight-label light">
+                                        lbs
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="flex-column pt-16 pb-16">
+                                <div class="font-subtitle mt-0">Your ideal weight range</div>
+                                <div class="flex-row">
+                                    <span class="font-subtitle light weight-range-start">
+                                        148.5
+                                    </span>
+                                    <span class="font-subtitle weight-label light">
+                                        lbs
+                                    </span>
+                                    <span> - </span>
+                                    <span class="font-subtitle light weight-range-end">
+                                        158.5
+                                    </span>
+                                    <span class="font-subtitle weight-label light">
+                                        lbs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <hr>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-0 mt-0">Success Stories from the YAZIO App</h2>
+                    </div>
+                </div>
+                <div class="row stories-row-wrapper">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 teaser-item-container">
+                        <a href="https://www.yazio.com/en/success-stories/1-success-story-of-dennis.html"
+                            class="text-decoration-none"
+                            onclick="yz_events.sendGaEvent('SuccessStory', 'Calculator-bmi', 'en_1')">
+                            <article>
+                                <div class="text-left">
+                                    <span class="textlink">Dennis, 25</span>
+                                </div>
+                                <picture data-alt="Dennis lost 110 lb with YAZIO"
+                                    data-default-src="https://images.yazio.com/frontend/success-stories/en/1-success-story-dennis.jpg?w=350">
+                                    <source srcset="
+                        https://images.yazio.com/frontend/success-stories/en/1-success-story-dennis.jpg?w=350,
+                        https://images.yazio.com/frontend/success-stories/en/1-success-story-dennis.jpg?w=700 2x">
+                                    <img src="https://images.yazio.com/frontend/success-stories/en/1-success-story-dennis.jpg?w=720"
+                                        alt="Dennis lost 110 lb with YAZIO" title="Dennis lost 110 lb with YAZIO"
+                                        class="teaser-image">
+                                </picture>
+                                <div class="weight-pill font-subtitle">-110 lb</div>
+                            </article>
+                            <div class="quote-container">
+                                <img src="https://assets.yazio.com/frontend/images/icons.svg#large-quote-sign-other"
+                                    class="icon-svg" type="image/svg+xml" role="presentation" />
+                                <p class="font-body d-inline">
+                                    If you want to accomplish something, then you will accomplish it, regardless of how
+                                    bumpy the road is. I always told myself: I can&#039;t...
+                                </p>
+                                <p class="textlink light clear-margin-bottom d-inline-block">Continue reading</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 teaser-item-container">
+                        <a href="https://www.yazio.com/en/success-stories/2-success-story-of-sophia.html"
+                            class="text-decoration-none"
+                            onclick="yz_events.sendGaEvent('SuccessStory', 'Calculator-bmi', 'en_2')">
+                            <article>
+                                <div class="text-left">
+                                    <span class="textlink">Sophia, 24</span>
+                                </div>
+                                <picture data-alt="Sophia lost 75 lb with YAZIOsuccess-story-ofX"
+                                    data-default-src="https://images.yazio.com/frontend/success-stories/en/2-success-story-sophia.jpg?w=350">
+                                    <source srcset="
+                        https://images.yazio.com/frontend/success-stories/en/2-success-story-sophia.jpg?w=350,
+                        https://images.yazio.com/frontend/success-stories/en/2-success-story-sophia.jpg?w=700 2x">
+                                    <img src="https://images.yazio.com/frontend/success-stories/en/2-success-story-sophia.jpg?w=720"
+                                        alt="Sophia lost 75 lb with YAZIOsuccess-story-ofX"
+                                        title="Sophia lost 75 lb with YAZIOsuccess-story-ofX" class="teaser-image">
+                                </picture>
+                                <div class="weight-pill font-subtitle">-75 lb</div>
+                            </article>
+                            <div class="quote-container">
+                                <img src="https://assets.yazio.com/frontend/images/icons.svg#large-quote-sign-other"
+                                    class="icon-svg" type="image/svg+xml" role="presentation" />
+                                <p class="font-body d-inline">
+                                    I tried to lose weight a lot of different ways, but they usually didn&#039;t work.
+                                    So, I put together my own diet. Calorie counting was...
+                                </p>
+                                <p class="textlink light clear-margin-bottom d-inline-block">Continue reading</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 margin-top-32">
+                        <a href="https://www.yazio.com/en/success-stories"><button
+                                class="yz-btn blue clear-margin-bottom clear-margin-top">All Success
+                                Stories</button></a>
+                    </div>
+                </div>
+                <hr>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mt-0 mb-lg-64">Try our other calculators!</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="further-links-wrapper centered">
+                        <div class="mt-32 mr-16 ml-16">
+                            <a href="/en/calories-burned-calculator" class="text-decoration-none"
+                                title="Calories Burned Calculator">
+                                <div class="teaser-box-wrapper">
+                                    <div class="icon-teaser-box">
+                                        <img src="https://assets.yazio.com/frontend/images/calculator/icon-cycling.svg"
+                                            class="icon-teaser-image" type="image/svg+xml"
+                                            alt="Calories Burned Calculator" />
+                                    </div>
+                                    <div class="mt-2 text-left icon-teaser-box-text"><span
+                                            class="font-body textlink light overflow-auto">Calories Burned
+                                            Calculator</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mt-32 mr-16 ml-16">
+                            <a href="/en/ideal-weight-calculator" class="text-decoration-none"
+                                title="Ideal Body Weight Calculator">
+                                <div class="teaser-box-wrapper">
+                                    <div class="icon-teaser-box">
+                                        <img src="https://assets.yazio.com/frontend/images/calculator/icon-scale.svg"
+                                            class="icon-teaser-image" type="image/svg+xml"
+                                            alt="Ideal Body Weight Calculator" />
+                                    </div>
+                                    <div class="mt-2 text-left icon-teaser-box-text"><span
+                                            class="font-body textlink light overflow-auto">Ideal Body Weight
+                                            Calculator</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mt-32 mr-16 ml-16">
+                            <a href="/en/calorie-intake-calculator" class="text-decoration-none"
+                                title="Daily Calorie Intake Calculator">
+                                <div class="teaser-box-wrapper">
+                                    <div class="icon-teaser-box">
+                                        <img src="https://assets.yazio.com/frontend/images/calculator/icon-ingredients.svg"
+                                            class="icon-teaser-image" type="image/svg+xml"
+                                            alt="Daily Calorie Intake Calculator" />
+                                    </div>
+                                    <div class="mt-2 text-left icon-teaser-box-text"><span
+                                            class="font-body textlink light overflow-auto">Daily Calorie Intake
+                                            Calculator</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mt-32 mr-16 ml-16">
+                            <a href="/en/webmaster" class="text-decoration-none"
+                                title="Get this free calculator for your website">
+                                <div class="teaser-box-wrapper">
+                                    <div class="icon-teaser-box">
+                                        <img src="https://assets.yazio.com/frontend/images/calculator/icon-web.svg"
+                                            class="icon-teaser-image" type="image/svg+xml"
+                                            alt="Get this free calculator for your website" />
+                                    </div>
+                                    <div class="mt-2 text-left icon-teaser-box-text"><span
+                                            class="font-body textlink light overflow-auto">Get this free calculator for
+                                            your website</span></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </section>
+            <section class="container calc-desc">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-0  text-left">About BMI</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-left short-text">
+                        <h4 class="title first">What is BMI?</h4>
+                        <p>BMI, or Body Mass Index, is a measurement that assesses your body weight relative to your
+                            height. The BMI measurement can be used for any age, from babies and children to teens and
+                            adults. Such a measurement, which classifies individuals as underweight, normal weight or
+                            overweight, can be used to determine if someone is an inappropriate or unhealthy weight...
+                            <span class="textlink read-more-toggle" data-tab-id="1">Continue reading</span>
+                    </div>
+                    <div class="col-12 text-left hidden" id="full-text-1">
+                        <h4 class="title first">What is BMI?</h4>
+                        <p>BMI, or Body Mass Index, is a measurement that assesses your body weight relative to your
+                            height. The BMI measurement can be used for any age, from babies and children to teens and
+                            adults. Such a measurement, which classifies individuals as underweight, normal weight or
+                            overweight, can be used to determine if someone is an inappropriate or unhealthy weight for
+                            their current size. BMI calculators can be ideally incorporated for men and women alike when
+                            setting fitness goals. BMI calculation can play a significant role in observing weight
+                            development, and is today's preferred method over other health indicators, such as size or
+                            weight.</p>
+                        <h4 class="title">How to calculate BMI</h4>
+                        <p>To calculate BMI, a body mass index calculator can be used. Our free, online BMI calculator
+                            utilizes a scientifically recognized formula to yield easy-to-read results that can help you
+                            better understand both your current BMI and your ideal weight. The metric formula we use to
+                            calculate BMI is as follows: m/l². Here, we take your current body weight in kilograms and
+                            divide it by the square root of your height in meters. In addition, our BMI calculator also
+                            incorporates your age and sex. By doing so, the BMI calculator is ideal for kids, teens, men
+                            and women. Taking these variables into account, we calculate BMI and display the results by
+                            means of graphical analysis.</p>
+                        <h4 class="title">Factors influencing BMI</h4>
+                        <p>The aforementioned factors included in our body mass index calculator are essential when
+                            calculating BMI. Age and gender, for example, play a significant role in yielding
+                            appropriate values. Since men tend to have a higher muscle percentage than women, the BMI
+                            for men is also generally higher than the BMI for women. Healthy BMI values are also
+                            significantly higher for older individuals compared to kids, teens or younger individuals.
+                            Other factors influencing the calculation of BMI include elements such as daily activity,
+                            body type and even amputation. There is indeed a significant difference in whether someone
+                            has a high fat or high muscle percentage, as fat is generally responsible for obesity. This
+                            distinction, in addition to others, can be considered when you calculate BMI. However, in
+                            order to make our online BMI calculator as simple and user-friendly as possible,we have
+                            chosen to emit this information.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-0 margin-top-32 text-left">Interpreting BMI</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-left short-text">
+                        <h4 class="title first">Properly classifying BMI</h4>
+                        <p>So, how does one actually sort through and understand the calculated values from the YAZIO
+                            BMI calculator? Depending on your gender, age and other varying factors, your BMI is
+                            categorized as either underweight, normal, overweight or even obese (excess weight). In
+                            addition to your current measured body value, our online BMI calculator also indicates...
+                            <span class="textlink read-more-toggle" data-tab-id="2">Continue reading</span>
+                    </div>
+                    <div class="col-12 text-left hidden" id="full-text-2">
+                        <h4 class="title first">Properly classifying BMI</h4>
+                        <p>So, how does one actually sort through and understand the calculated values from the YAZIO
+                            BMI calculator? Depending on your gender, age and other varying factors, your BMI is
+                            categorized as either underweight, normal, overweight or even obese (excess weight). In
+                            addition to your current measured body value, our online BMI calculator also indicates your
+                            body's ideal weight and BMI range. A healthy BMI for males, for example, is from 19 – 24 kg
+                            / m². Females are at a normal weight with a BMI of 18 – 23 kg / m². Anything below these
+                            values would indicate someone as being underweight. If the BMI calculator yields a value
+                            below 18 kg / m, it can be a sign that an eating disorder exists. Generally, a calculated
+                            BMI from 23 to 24 indicates a tendency to be overweight. BMI becomes dangerous when it
+                            reaches 28 to 29. In this case, the individual falls into the category of Class 1 Obesity. A
+                            BMI from 39 to 40 indicates an obesity grade of Class 2. According to 2014 statistics from
+                            the World Health Organization, more than 39% of adults had a BMI greater than 25 and were
+                            categorized as overweight. Obesity in kids is also a growing problem, with 42 million
+                            children under 5 years old being categorized as obese in 2013. By calculating BMI, parents
+                            can have a better understanding of their child's health and can better observe their child's
+                            weight development.</p>
+                        <h4 class="title">Consequences of high or low BMI</h4>
+                        <p>With high BMI values, severe health conditions are expected. Not only does obesity restrict a
+                            person's physical movement, but it also increases the chances of suffering from secondary
+                            diseases. Obesity increases the risk of diabetes and can lead to increased blood pressure
+                            and signs of hypertension (high blood pressure). It can also result in dyslipidemia and high
+                            blood lipids. With a BMI of over 30 or even 40, the risk of suffering from a heart attack or
+                            stroke is significantly increased. Patients with obesity often times must deal with
+                            osteoarthritis, gallbladder disease or hormonal imbalances. Risks of various forms of
+                            cancer, such as colon or kidney cancer, are also increased.</p>
+                        <p>A BMI with a strong indication of being underweight can also be extremely dangerous. Here the
+                            biggest problem is generally a lack of essential nutrients and resulting deficiencies.
+                            Nutrient deficiency can contribute to the development of osteoporosis and can affect muscle
+                            function. Individuals who are underweight often have weaker immune systems, making them more
+                            susceptible to infectious diseases and making it more difficult for wounds to heal. These
+                            serious deficiencies can result from eating disorders, such as anorexia. Such disorders have
+                            extremely negative effects on bones, teeth and the immune system as a whole. In worst cases,
+                            the threat of cardiac arrhythmia caused by potassium deficiency is present.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-0 margin-top-32 text-left">Criticism of BMI</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-left short-text">
+                        <h4 class="title first">Is a BMI calculator still relevant?</h4>
+                        <p>Criticism of BMI calculators is increasingly present. Such criticism stems from the
+                            fundamental question of whether or not a simple BMI value higher than 24 can immediately
+                            indicate potential medical problems. Rather, critics are wanting to focus more and more
+                            frequently on the complete composition of an individual's weight. This is...
+                            <span class="textlink read-more-toggle" data-tab-id="3">Continue reading</span>
+                    </div>
+                    <div class="col-12 text-left hidden" id="full-text-3">
+                        <h4 class="title first">Is a BMI calculator still relevant?</h4>
+                        <p>Criticism of BMI calculators is increasingly present. Such criticism stems from the
+                            fundamental question of whether or not a simple BMI value higher than 24 can immediately
+                            indicate potential medical problems. Rather, critics are wanting to focus more and more
+                            frequently on the complete composition of an individual's weight. This is especially
+                            relevant for athletes, in which higher weight resulting from increased muscle mass, and
+                            consequently a higher BMI, does not indicate health problems. Furthermore, even those
+                            individuals who have a higher body fat can vary from case to case. A study from the Medical
+                            Clinic of Munich's Ludwig Maximilian University, for example, distinguished between belly
+                            fat and so-called lower body fat. While the latter is safe on thighs, buttocks or arms, fat
+                            around the abdomen can increase the risk of cardiovascular disease and stroke. For
+                            simplicity purposes, such factors are not included in our BMI calculator.</p>
+                        <h4 class="title">Inconsistencies among researchers</h4>
+                        <p>In addition to questions of weight composition and variations among individuals with
+                            differing lifestyles, there are also growing inconsistencies among researchers. While many
+                            studies bring attention to specific consequences of extremely high BMI like stroke, heart
+                            attack or death, for example, the aforementioned Munich-based study makes no mention of such
+                            consequences. Inconsistencies can also be found in regards to classification levels.
+                            Recently, experts have decreased the value for so-called underweight individuals. As a
+                            result, healthy individuals may unnecessarily end up falling into the overweight category,
+                            as in the case of athletes. Such inconsistencies bring into question the necessity of such a
+                            measuring method, as well as its accuracy.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="frontend-footer_v2 container">
+            <hr>
+            <p class="font-subtitle">Download the YAZIO app</p>
+            <div class="store-badges_v2 mt-3">
+                <a href="https://itunes.apple.com/app/apple-store/id946099227?pt=9774818&amp;ct=yaziocom-footer&amp;mt=8"
+                    class="js-ios-badge-link hidden" target="_blank"
+                    onclick="yz_events.sendGaEvent('AppStore', 'Footer', 'iOS')">
+                    <img src="https://assets.yazio.com/frontend/images/button-app-store-en.svg"
+                        alt="YAZIO iPhone &amp; iPad App on the App Store"
+                        title="YAZIO iPhone &amp; iPad App on the App Store" id="store-badge-footer-ios"
+                        class="store-img_v2 small" width="200" height="60" type="image/svg+xml">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.yazio.android&amp;referrer=utm_source%3Dyaziocom%26utm_medium%3Dbadge%26utm_campaign%3Dfooter%26anid%3Dadmob"
+                    class="js-android-badge-link hidden" target="_blank"
+                    onclick="yz_events.sendGaEvent('AppStore', 'Footer', 'Android')">
+                    <img src="https://assets.yazio.com/frontend/images/button-play-store-en.svg"
+                        alt="YAZIO Android App on Google Play" title="YAZIO Android App on Google Play"
+                        id="store-badge-footer-android" class="small store-badge-ml" type="image/svg+xml">
+                </a>
+                <p class="alt-store-ios hidden font-caption mt-2 text-center d-lg-none clear-margin-bottom">Also for <a
+                        class="js-ios-text-link textlink light font-caption" target="_blank"
+                        href="https://itunes.apple.com/app/apple-store/id946099227?pt=9774818&ct=yaziocom-footer&mt=8">iOS</a>
+                </p>
+                <p class="alt-store-android hidden font-caption mt-2 text-center d-lg-none clear-margin-bottom">Also for
+                    <a class="js-android-text-link textlink light font-caption" target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.yazio.android&referrer=utm_source%3Dyaziocom%26utm_medium%3Dbadge%26utm_campaign%3Dfooter%26anid%3Dadmob">Android</a>
+                </p>
+            </div>
+            <hr class="margin-bottom-32">
+            <div class="footer-bottom">
+                <a href="https://help.yazio.com/hc/en-us" target="_blank">
+                    <button class="yz-btn outline mt-0">Need help?</button>
+                </a>
+                <p class="font-caption margin-top-16">Copyright &copy; 2020 YAZIO. All rights reserved.
+                    <a href="https://www.yazio.com/en/contact" class="textlink">
+                        Contact
+                    </a>
+                </p>
+            </div>
+        </section>
+    </footer>
+    <script src="https://www.yazio.com/assets/runtime-b6d40ae6.js"></script>
+    <script src="https://www.yazio.com/assets/0-cf60d32b.js"></script>
+    <script src="https://www.yazio.com/assets/1-fb6b79d4.js"></script>
+    <script src="https://www.yazio.com/assets/main-scripts-v2-82ad343e.js"></script>
+    <script src="https://www.yazio.com/assets/calculator-bmi-3c15889f.js"></script>
+    <script>
+        yz_events.sendFbEvent('Calculator_bmi');
+    </script>
+    <span id="cookie-info-strings" class="hidden"
+        data-cookie-default-text="We use cookies to improve your experience on our website and provide personalized content. By continuing to use this site, you consent to our use of cookies. Further information can be found in our &lt;a href=&quot;https://help.yazio.com/hc/en-us/articles/203444951-Terms-of-Service-Privacy-Policy&quot;&gt;Privacy Policy&lt;/a&gt;.">
+    </span>
+    <script src="https://www.yazio.com/assets/smart-app-banner-v2-b22aa0df.js"></script>
+    <span id="smartapp-banner-strings" class="hidden" data-app-name="Calorie Counting via App"
+        data-app-description-android="FREE in Google Play" data-app-description-ios="FREE in the App Store"
+        data-app-button="Install" data-app-button-download="Register for Free" data-app-rating="very good (77,416)"
+        data-app-free-download="FREE" data-app-trimmed-frontpage="" data-app-is-landingpage="false"></span>
+</body>
+
+</html>
