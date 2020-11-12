@@ -1,0 +1,128 @@
+/* Fonts */
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: SourceSansPro-SemiBold;
+    src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf');
+}
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: SourceSansPro-Regular, sans-serif;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+a {
+    line-height: 1.4;
+    color: #999999;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #858585;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.btn:focus, .btn.focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.login-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: -webkit-linear-gradient(left, #665dfe, #2575fc);
+}
+
+.login-container .login-wrapper {
+    width: 700px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 50px;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.login-container .login-wrapper .login-title {
+    display: block;
+    font-family: SourceSansPro-Bold;
+    font-size: 30px;
+    color: #4b2354;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.button-container button {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button-container button:hover {
+    background-color: #f7f7f7;
+}
+
+.button-container button .button-wrapper img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button-container button .button-wrapper .button-text {
+    padding: 20px;
+    font-family: SourceSansPro-Bold;
+    font-size: 16px;
+}
+
+.button-back::before {
+    content: '<<';
+    margin-right: 5px;
+}
+
+@media(max-width: 550px) {
+    .button-container button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .login-container {
+        background: #fff;
+        padding: 0;
+    }
+
+    .login-container .login-wrapper {
+        width: 100%;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+}
