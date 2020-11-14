@@ -2,6 +2,8 @@
 
 body {
     box-sizing: border-box !important;
+    background-color: #e9ecef90;
+    color: #53565a;
 }
 
 .k-main {
@@ -13,20 +15,48 @@ body {
 
 }
 
-/* .k-main-sub {
-    height: 500px;
-} */
+.k-main-sub {
+    height: 550px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.k-main-sub>.col {
+    padding-right: 0;
+    background-color: white;
+}
+
+.k-main-sub>div:first-child {
+    padding-right: 0;
+    background-color: white;
+}
+
+.c-main-left p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.next-icon {}
+
+.left-karosel {
+    height: 200px;
+}
 
 .k-main-sub>div {
     border: 1px solid rgb(222, 226, 230);
     border-radius: 5px;
-    min-height: 400px;
+    height: 530px;
 
+}
+
+.c-karosel img {
+    width: 200px;
 }
 
 .k-search {
     background-color: rgb(238, 237, 237);
     padding: 20px;
+    margin-right: 0;
 }
 
 .k-search-input {
@@ -61,7 +91,7 @@ body {
 }
 
 .k-search-button:hover {
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .kartu {
