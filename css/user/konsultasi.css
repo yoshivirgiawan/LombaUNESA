@@ -76,6 +76,10 @@ body {
     padding: 0;
 }
 
+.profil-kanan {
+    width: 100px;
+}
+
 .k-profil .card-img-top {
     width: 80px !important;
     margin: 0 20px;

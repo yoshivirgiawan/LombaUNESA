@@ -172,6 +172,7 @@
                         <span> 2238,57 cal </span>
                     </div>
                 </div>
+
                 <div class="text-left mt-4">
                     <h5>Keterangan</h5>
                     <p>
@@ -194,6 +195,23 @@
             </div>
 
         </section>
+
+        <div class="container">
+            <div class="text-left mt-4 k-peringatan">
+                <div class="k-peringatan-top">
+                    <div class="icon-i">
+                        <img src="../img/cek/i.svg" alt="" width="20px">
+                    </div>
+                    Peringatan
+                </div>
+                <div class="k-per-bawah">
+                    <p>Hasil cek kesehatan ini hanya dapat digunakan sebagai informasi tambahan, tidak bisa
+                        menggantikan saran medis, diagnosis, dan pengobatan dari dokter.&nbsp;Jika Anda berada
+                        di dalam keadaan darurat dan butuh pertolongan medis, segera hubungi 118 atau pergi ke
+                        unit pelayanan gawat darurat terdekat.</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -247,5 +265,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="../js/script.min.js"></script>
 <script src="../js/scriptuser.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.c-cek').click(function () {
+            $('.k-peringatan').hide();
+            $('.c-result').fadeIn();
+        });
+    });
+</script>
 
 </html>

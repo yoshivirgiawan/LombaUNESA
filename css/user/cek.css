@@ -84,6 +84,55 @@ body {
     width: 100%;
 }
 
+.icon-i {
+    width: 32px;
+    height: 32px;
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.icon-i img {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-image: url(images/image-sprites-new.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: -31px -69px;
+}
+
+.k-peringatan {
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.k-per-bawah {
+    padding: 18px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4c4c4c;
+    border-radius: 0 0 8px 8px;
+}
+
+.k-peringatan-top {
+    padding: 18px 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .7);
+    border-bottom: 2px solid #fff;
+}
+
 .c-cek {
     border-radius: 24px !important;
     background-image: linear-gradient(to right top, #ff564e, #ff7640, #ff9534, #ffb32f, #fed136);
@@ -96,6 +145,7 @@ body {
 .c-cek:active {
     background: gray !important;
     color: white !important;
+    box-shadow: none !important;
 }
 
 .c-calc {
@@ -117,7 +167,7 @@ body {
 .c-result {
     padding-top: 5px !important;
     padding-bottom: 20px;
-
+    display: none;
 }
 
 .c-result>div {
