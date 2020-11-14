@@ -11973,7 +11973,8 @@ ul.social-buttons li a {
     color: #fff;
     border-radius: 100%;
     outline: none;
-    background-color: #212529
+    background-color: none;
+    border: 1px solid grey;
 }
 
 ul.social-buttons li a:active,

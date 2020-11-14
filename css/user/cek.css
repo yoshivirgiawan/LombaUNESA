@@ -1,6 +1,11 @@
 /* #007bff --> biru*/
+/* #fed136 --> yellow */
 * {
     color: #37474f;
+}
+
+body {
+    background-color: #e9ecef90;
 }
 
 .k-main {
@@ -21,12 +26,29 @@
     color: white;
 }
 
+.c-input-group {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    ;
+}
 
-
-.c-input-group>div {
+.c-input-group-sub>div {
     width: 25%;
     margin: 5px;
+
 }
+
+.c-input-group-sub .card:hover {
+    background-color: #007bff21;
+}
+
+.c-input-group .card {
+    height: 208px !important;
+}
+
 
 .c-input {
     width: 100px !important;
@@ -49,3 +71,185 @@
     color: #37474f;
     border: 1px solid grey !important;
 }
+
+.c-gender-button .btn:hover,
+.c-gender-button .btn:focus {
+    background: #007bff !important;
+    color: white !important;
+}
+
+.c-cek-main {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.c-cek {
+    border-radius: 24px !important;
+    background-image: linear-gradient(to right top, #ff564e, #ff7640, #ff9534, #ffb32f, #fed136);
+    border: none;
+    padding: 12px 30px;
+}
+
+.c-cek:focus,
+.c-cek:hover,
+.c-cek:active {
+    background: gray !important;
+    color: white !important;
+}
+
+.c-calc {
+    background-color: #007bff;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    bottom: -20px;
+    height: 40px;
+    width: 40px;
+    line-height: 10px;
+    left: calc(50% - 25px);
+}
+
+.c-calc img {}
+
+.c-result {
+    padding-top: 5px !important;
+    padding-bottom: 20px;
+
+}
+
+.c-result>div {
+    background-color: #fff;
+    padding: 20px !important;
+    border: 1px solid rgba(0, 0, 0, .125);
+
+
+}
+
+.c-result-1 {
+    border: 1px solid rgb(233, 115, 35);
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    /* color: white; */
+    color: rgb(233, 115, 35);
+}
+
+.c-res-ket-top>div {
+    padding: 10px;
+    border: solid 1px #2491d0;
+    width: 260px;
+    line-height: 24px;
+    padding: 10px;
+    border: solid 1px #2491d0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.c-res-ket-top>div+div {
+    margin-left: 30px;
+}
+
+.c-res-ket-top>div span:first-child {
+    font-size: 12px;
+    color: #999;
+}
+
+.c-res-ket-top>div span:last-child {
+    font-weight: 700;
+    color: #017eba;
+}
+
+.c-res-img img {
+    width: calc(100% /5);
+    height: 220px;
+}
+
+.c-result-line {
+    border-top: solid 1px #dddddd;
+    position: relative;
+}
+
+.c-result-line::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    border-radius: 100%;
+}
+
+.c-result-line span {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2d2d2d;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    font-weight: lighter;
+}
+
+.c-result-line span::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    display: block;
+    position: absolute;
+    top: -6px;
+    right: 0;
+    border-radius: 100%;
+}
+
+
+.c-res-rainbow {
+    height: 21px;
+    border-radius: 100px;
+    background-image: linear-gradient(to right, #2b95ff, #009a96 15%, #00a12b 25%, #fed205 50%, #dc1900, #dc1900);
+}
+
+.c-res-bullet {
+    content: "";
+    padding: 5px;
+    background-color: #2c87f3;
+    position: absolute;
+    border-radius: 5px;
+    bottom: 10px;
+    /* left: 50%; */
+    z-index: 99;
+    color: white;
+    height: 35px;
+    line-height: 27px;
+}
+
+.c-res-bullet::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #2c87f3;
+    position: absolute;
+    bottom: -8px;
+    left: 40%;
+}
+
+
+.c-res-img img:not(.c-img-lebih) {
+    opacity: .2;
+}
+
+/* .c-res-lebih {
+    font-weight: bold !important;
+    color: #007bff !important;
+} */

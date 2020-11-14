@@ -35,6 +35,10 @@
     font-family: us-font, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
+.us-navbar .nav-link {
+    color: white !important;
+}
+
 a {
     text-decoration: none !important;
     color: #2693ff;
@@ -48,7 +52,12 @@ body {
 
 .fa {
     font-family: FontAwesome !important;
-    color: white !important;
+    color: grey !important;
+}
+
+ul.social-buttons li a {
+    background-color: none !important;
+    border: 1px solid grey !important;
 }
 
 /* a:hover {
@@ -141,6 +150,10 @@ header.masthead .intro-text .intro-heading {}
     color: #fed136;
 } */
 
+.us-li-daftar {
+    padding-right: 0px !important;
+}
+
 .us-daftar {
     /* background-color: #FD6100; */
     width: 100px !important;
@@ -149,13 +162,18 @@ header.masthead .intro-text .intro-heading {}
     background-color: rgb(38, 147, 255);
     border: 1px solid white !important;
     box-shadow: none !important;
-
+    opacity: 1 !important;
+    font-size: 90%;
+    font-weight: lighter;
 }
 
-.us-daftar:hover {
+.us-daftar:hover,
+.us-daftar:focus {
     background-color: #fed136 !important;
     border: none !important;
-    transition: all .5s ease !important;
+    /* transition: all .5s ease !important; */
+    color: white !important;
+    box-shadow: none !important;
 }
 
 .us-left {

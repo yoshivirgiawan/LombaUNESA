@@ -13,6 +13,10 @@ body {
 
 }
 
+/* .k-main-sub {
+    height: 500px;
+} */
+
 .k-main-sub>div {
     border: 1px solid rgb(222, 226, 230);
     border-radius: 5px;
@@ -34,6 +38,14 @@ body {
     padding: 0 15px;
 }
 
+.k-konten-right {
+    height: 400px;
+}
+
+.k-profil {
+    padding: 0;
+}
+
 .k-profil .card-img-top {
     width: 80px !important;
     margin: 0 20px;
@@ -48,6 +60,26 @@ body {
     color: white;
 }
 
+.k-search-button:hover {
+    background-color: #fff;
+}
+
 .kartu {
-    box-shadow: 0 2px 4px 0 rgba(23, 22, 22, .21);
+    /* box-shadow: 0 2px 4px 0 rgba(23, 22, 22, .21); */
+    margin: 5px;
+}
+
+.k-aktif-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 6px;
+    right: 4px;
+    background: #00e092;
+}
+
+.text-muted img {
+    vertical-align: 0 !important;
+
 }
