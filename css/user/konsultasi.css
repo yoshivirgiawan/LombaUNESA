@@ -8,7 +8,7 @@ body {
 
 .us-daftar2 {
 
-    padding: 0 10px 0 3px !important;
+    padding: 0 10px 1px 1px !important;
     width: auto !important;
     background-color: #fff;
     color: #007bff;
@@ -16,11 +16,10 @@ body {
     font-weight: normal !important;
 }
 
-/* .us-daftar img {
-
+.ppbunder {
     border-radius: 100% !important;
-    background-color: #fff;
-} */
+    background-color: #fff !important;
+}
 
 .us-daftar2:hover,
 .us-daftar2:focus,

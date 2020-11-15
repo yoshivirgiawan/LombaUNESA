@@ -39,6 +39,10 @@
     color: white !important;
 }
 
+.u-ppku {
+    display: none;
+}
+
 a {
     text-decoration: none !important;
     color: #2693ff;
@@ -65,6 +69,24 @@ ul.social-buttons li a {
     color: #FD6100 !important;
 } */
 
+.us-daftar2 {
+
+    padding: 0 10px 1px 1px !important;
+    width: auto !important;
+    background-color: #fff !important;
+    color: #007bff !important;
+    border-radius: 100px !important;
+    font-weight: normal !important;
+}
+
+.ppbunder {
+    border-radius: 100% !important;
+    background-color: #fff !important;
+}
+
+.u-login {
+    /* background: -webkit-linear-gradient(left, #fe9d5d, #49fc25); */
+}
 
 /* HEADER */
 .us-bg-header {
@@ -256,7 +278,7 @@ header.masthead .intro-text .intro-heading {}
     width: 100px !important;
     /* mcolor: rgb(38, 147, 255); */
     border-radius: 100px !important;
-    background-color: rgb(38, 147, 255);
+    background-color: rgba(128, 128, 128, 0) !important;
     border: 1px solid white !important;
     box-shadow: none !important;
     opacity: 1 !important;
@@ -266,7 +288,7 @@ header.masthead .intro-text .intro-heading {}
 
 .us-daftar:hover,
 .us-daftar:focus {
-    background-color: #fed136 !important;
+    background-color: #ff9534 !important;
     border: none !important;
     /* transition: all .5s ease !important; */
     color: white !important;

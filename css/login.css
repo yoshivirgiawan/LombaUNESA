@@ -16,14 +16,15 @@
 }
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: SourceSansPro-Regular, sans-serif;
+body,
+html {
+    height: 100%;
+    font-family: SourceSansPro-Regular, sans-serif;
 }
 
 input {
@@ -50,7 +51,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: -webkit-linear-gradient(left, #665dfe, #2575fc);
+    /* background: -webkit-linear-gradient(left, #665dfe, #2575fc); */
 }
 
 .login-container .login-wrapper {
@@ -116,7 +117,7 @@ a:hover {
     height: 55px;
 }
 
-.login-container .login-wrapper .input-wrapper input:focus + .input-label {
+.login-container .login-wrapper .input-wrapper input:focus+.input-label {
     top: 10px !important;
     font-size: 15px;
     color: #111111;
@@ -126,7 +127,7 @@ a:hover {
     height: 50px !important;
 }
 
-.has-val + .input-label {
+.has-val+.input-label {
     top: 10px !important;
     font-size: 15px;
     color: #111111;
@@ -159,7 +160,8 @@ a:hover {
     background-color: #4238ff;
 }
 
-.login-button-container button:focus, .button.focus {
+.login-button-container button:focus,
+.button.focus {
     box-shadow: none;
     outline: none;
 }

@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/user/beranda.css">
     <link rel="stylesheet" href="css/user/owl.carousel.min.css">
     <link rel="stylesheet" href="css/user/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css">
+
 
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="icon" href="img/logo.png">
@@ -37,12 +40,92 @@
                             Body</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
                             href="user/cek.html">info Kesehatan</a></li>
-                    <li class="nav-item us-li-daftar" role="presentation"><button type="button"
-                            class="us-daftar btn btn-primary">MASUK</button></li>
+                    <li class="nav-item us-li-daftar u-daftar2" role="presentation">
+                        <!-- <button type="button" class="us-daftar btn btn-primary"
+                            data-target="#exampleModal">MASUK</button> -->
+                        <button type="button" class="us-daftar btn btn-primary" data-toggle="modal"
+                            data-target="#exampleModal">
+                            MASUK
+                        </button> </li>
+                    <li class="nav-item us-li-daftar u-ppku" role="presentation"><button type="button"
+                            class="us-daftar2 btn btn-primary">
+                            <img src="img/ppku.png" alt="" class="ppbunder" width="30px">
+                            <div class="d-inline">Unesa <img src="img/pp panah.svg" width="10px" alt=""
+                                    class="d-inline"></div>
+                        </button></li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- LOGIN -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- login -->
+                    <div class="login-container u-login">
+                        <div class="login-wrapper">
+                            <span class="login-title">MASUK</span>
+
+                            <form action="">
+                                <div class="input-wrapper mb-4">
+                                    <input type="email" name="" class="" required>
+                                    <span class="input-label">Email</span>
+                                </div>
+
+                                <div class="input-wrapper mb-4">
+                                    <input type="password" name="" class="" required>
+                                    <span class="input-label">Kata Sandi</span>
+                                </div>
+
+                                <div
+                                    class="secondary-feature d-flex justify-content-between align-items-center px-2 mb-4">
+                                    <a class="forgot" href="#">Lupa Password?</a>
+                                    <span class="remember d-flex align-items-center">
+                                        <input class="form-check-input mt-0" type="checkbox" value=""
+                                            id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Ingat Saya
+                                        </label>
+                                    </span>
+                                </div>
+
+                                <div class="login-button-container mb-4">
+                                    <a href="#">
+                                        <button class="btn login-button py-3 masuk-ok " type="submit"
+                                            data-dismiss="modal" aria-label="Close">Masuk</button>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </a>
+
+                                </div>
+
+                                <div class="divider d-flex align-items-center text-center mb-4">
+                                    <span class="line"></span>
+                                    <span class="divider-text px-4">atau buat akun</span>
+                                    <span class="line"></span>
+                                </div>
+
+                                <div class="login-button-container">
+                                    <a class="btn signup-button py-3" href="../dokter/daftar.html">Daftar</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- KAROSEL -->
     <div class="u-karosel">
@@ -113,6 +196,7 @@
     <section class="artikel-main">
         <div class="container">
             <div class="text-center">
+
                 <h2 class="">
                     Artikel
                 </h2>
@@ -290,14 +374,28 @@
         </div>
     </footer>
 </body>
+
+<!-- u-daftar2
+u-ppku -->
+
+
+
 <script>
+    $(document).ready(function () {
+        $('.masuk-ok').click(function () {
+            $('.u-daftar2').hide();
+            $('.modal').fadeOut("slow");
+            $('.u-ppku').fadeIn();
+        });
+    });
+
     $(document).ready(function () {
         var owl = $('.owl-carousel');
         owl.owlCarousel({
             items: 1,
             loop: true,
             margin: 10,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 2200,
             autoplayHoverPause: true
         });
@@ -309,6 +407,8 @@
         })
     })
 </script>
+<script src="js/bootstrap.js"></script>
+<script src="js/login.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
