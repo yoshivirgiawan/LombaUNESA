@@ -123,7 +123,8 @@ ul.social-buttons li a {
 
 .lebihlanjut3 {
     /* border: 1px solid #ff6e4d; */
-    background-color: #FF584D;
+    /* background-color: #FF584D; */
+    background-color: #ff9534;
     padding: 5px 30px;
     display: inline-block;
     border-radius: 10px;
@@ -286,7 +287,8 @@ header.masthead .intro-text .intro-heading {}
 }
 
 .us-ex-here {
-    background-color: #fed136;
+    /* background-color: #fed136; */
+    background-color: #ff9534;
     text-align: center;
     border-radius: 5px 5px 0 0;
     padding: 0 !important;
@@ -297,11 +299,12 @@ header.masthead .intro-text .intro-heading {}
 .us-ex-here:hover {
     pointer: cursor;
     background-color: white;
+
 }
 
 .us-ex-a {
     font-size: 17px !important;
-    scolor: white;
+    color: white;
     font-weight: bold !important;
     display: inline-block;
     width: 100%;
