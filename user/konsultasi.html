@@ -5,18 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>CareMe | Sobat sehat anda punya</title>
+
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/user/beranda.css">
     <link rel="stylesheet" href="../css/user/konsultasi.css">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"> -->
-    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="../css/styles.min.css"> -->
 
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
     <link rel="icon" href="../img/logo.png">
-    <!-- ?v=<?php //echo time(); ?>" -->
 </head>
 
 <body id="page-top">
@@ -49,7 +44,6 @@
 
     <!-- MAIN -->
     <main class="k-main">
-
         <section class="k-main-content mb-5">
             <div class="container">
                 <nav aria-label="breadcrumb">
@@ -61,9 +55,8 @@
                 <div class="row k-main-sub">
                     <!-- LEFT -->
                     <div class="col-4 mr-2 p-4 text-center c-main-left">
-                        <h6>Konsultasi dimana saja kapan saja</h6>
-                        <p><b></b></p>
-
+                        <h6>Konsultasi dimana saja kapan saja</h6><br>
+                        <!-- animasi -->
                         <div id="carouselExampleIndicators" class="carousel slide left-karosel" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -103,10 +96,9 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-
+                        <!-- infoo -->
                         <div class="text-left mt-1">
                             <div class="d-flex">
-
                             </div>
                             <div class="d-flex flex-row align-items-center mb-2">
                                 <div class="col-1 mr-2"><img src="../img/cek/cek.svg" width="20px" alt="" class="mr-4">
@@ -139,7 +131,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- content -->
                         <div class="overflow-auto">
                         </div>
@@ -150,7 +141,7 @@
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLabel">Chat Dokter</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -159,15 +150,60 @@
                                             ...
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save
-                                                changes</button>
+                                            <button type="button" class="btn btn-primary">Kirim</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
+                            <!-- profil -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-woman.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1"> dr. Susanti SpA</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Siloam Hospitals Surabaya
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (240)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 4 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 10.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Konsul
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -- -->
                             <div class="col k-profil">
                                 <div class="card kartu d-flex flex-row">
                                     <div class="card-body">
@@ -179,10 +215,10 @@
                                                     <span class="k-aktif-bullet"></span>
                                                 </div>
                                                 <div class="ml-3">
-                                                    <h6 class="card-title mb-1">Dr. Natalia Carolina Pardosi</h6>
+                                                    <h6 class="card-title mb-1">dr. Marthin Limba, Sp PD</h6>
                                                     <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
                                                             alt="">
-                                                        Dokter Kulit</div>
+                                                        Dokter Gizi</div>
                                                     <div class="text-muted"> <img src="../img/cek/icon-build.svg"
                                                             alt=""> Klinik Royal Medika
                                                     </div>
@@ -198,12 +234,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <p class="card-text">Some quick example <b>dsd</b> </p> -->
                                         </a>
                                     </div>
-                                    <!-- <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                    </ul> -->
                                     <div class="card-body profil-kanan">
                                         <div class="d-flex flex-column border-left pl-3 mb-4">
                                             <div class="text-muted">
@@ -219,6 +251,55 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- -- -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-woman.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1"> dr. Susanti SpA</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Siloam Hospitals Surabaya
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (240)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 4 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 10.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Konsul
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -- -->
                             <div class="col k-profil">
                                 <div class="card kartu d-flex flex-row">
                                     <div class="card-body">
@@ -230,10 +311,10 @@
                                                     <span class="k-aktif-bullet"></span>
                                                 </div>
                                                 <div class="ml-3">
-                                                    <h6 class="card-title mb-1">Dr. Natalia Carolina Pardosi</h6>
+                                                    <h6 class="card-title mb-1">dr. Marthin Limba, Sp PD</h6>
                                                     <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
                                                             alt="">
-                                                        Dokter Kulit</div>
+                                                        Dokter Gizi</div>
                                                     <div class="text-muted"> <img src="../img/cek/icon-build.svg"
                                                             alt=""> Klinik Royal Medika
                                                     </div>
@@ -249,12 +330,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <p class="card-text">Some quick example <b>dsd</b> </p> -->
                                         </a>
                                     </div>
-                                    <!-- <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                    </ul> -->
                                     <div class="card-body profil-kanan">
                                         <div class="d-flex flex-column border-left pl-3 mb-4">
                                             <div class="text-muted">
@@ -270,48 +347,44 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col k-profil">
+                            --<div class="col k-profil">
                                 <div class="card kartu d-flex flex-row">
                                     <div class="card-body">
                                         <a href="" class="text-dark">
                                             <div class="mb-2 d-flex">
                                                 <div class="position-relative d-inline-block">
-                                                    <img src="../img/konsul/pp-man.jpg" alt="" width="50%"
+                                                    <img src="../img/konsul/pp-woman.jpg" alt="" width="50%"
                                                         class="rounded-circle card-img-top">
                                                     <span class="k-aktif-bullet"></span>
                                                 </div>
                                                 <div class="ml-3">
-                                                    <h6 class="card-title mb-1">Dr. Natalia Carolina Pardosi</h6>
+                                                    <h6 class="card-title mb-1"> dr. Susanti SpA</h6>
                                                     <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
                                                             alt="">
-                                                        Dokter Kulit</div>
+                                                        Dokter Gizi</div>
                                                     <div class="text-muted"> <img src="../img/cek/icon-build.svg"
-                                                            alt=""> Klinik Royal Medika
+                                                            alt=""> Siloam Hospitals Surabaya
                                                     </div>
                                                     <div class="d-flex flex-row mt-2">
                                                         <div class="text-muted">
                                                             <img src="../img/cek/like.png" width="15px" alt="">
-                                                            <span class="text-dark ml-1"> 99% (100)</span>
+                                                            <span class="text-dark ml-1"> 99% (240)</span>
                                                         </div>
                                                         <div class="text-muted pl-5">
                                                             <img src="../img/cek/tas.png" width="15px" alt="">
-                                                            <span class="text-dark ml-1"> 2 tahun</span>
+                                                            <span class="text-dark ml-1"> 4 tahun</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <p class="card-text">Some quick example <b>dsd</b> </p> -->
                                         </a>
                                     </div>
-                                    <!-- <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                    </ul> -->
                                     <div class="card-body profil-kanan">
                                         <div class="d-flex flex-column border-left pl-3 mb-4">
                                             <div class="text-muted">
                                                 biaya mulai dari :
                                             </div>
-                                            <div>Rp 20.000</div>
+                                            <div>Rp 10.000</div>
                                         </div>
                                         <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
                                                 data-target="#exampleModal">
@@ -321,6 +394,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- -- -->
                             <div class="col k-profil">
                                 <div class="card kartu d-flex flex-row">
                                     <div class="card-body">
@@ -332,10 +406,10 @@
                                                     <span class="k-aktif-bullet"></span>
                                                 </div>
                                                 <div class="ml-3">
-                                                    <h6 class="card-title mb-1">Dr. Natalia Carolina Pardosi</h6>
+                                                    <h6 class="card-title mb-1">dr. Marthin Limba, Sp PD</h6>
                                                     <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
                                                             alt="">
-                                                        Dokter Kulit</div>
+                                                        Dokter Gizi</div>
                                                     <div class="text-muted"> <img src="../img/cek/icon-build.svg"
                                                             alt=""> Klinik Royal Medika
                                                     </div>
@@ -351,12 +425,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <p class="card-text">Some quick example <b>dsd</b> </p> -->
                                         </a>
                                     </div>
-                                    <!-- <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                    </ul> -->
                                     <div class="card-body profil-kanan">
                                         <div class="d-flex flex-column border-left pl-3 mb-4">
                                             <div class="text-muted">
@@ -391,15 +461,12 @@
                                 </nav>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
-
-
         </section>
 
+        <!-- CONTENT BOTTOM -->
         <div class="container mb-5">
             <h6>Mengapa Harus Harus CareMe?</h6>
             <p class="text-secondary">Memilih Tanya Dokter CareMe akan mempertemukan kamu dengan tenaga medis
@@ -414,20 +481,20 @@
                 Kamu bisa melakukan konsultasi dan diskusi kesehatan dengan dokter dan psikolog, menanyakan tips diet,
                 rekomendasi obat, rujukan ke rumah sakit, terapi, hingga rekomendasi gaya hidup yang baik sebagai upaya
                 pencegahan terhadap penyakit maupun kondisi kesehatan lainnya. </p>
-
         </div>
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="row us-footer">
                 <div class="col-md-3 us-left us-footer-1">
                     Held by<br>
-                    <img src="../img/unesa.jpg" alt="logo unesa" width="60px" style="padding:5px 10px 0 0">
-                    <img src="../img/ic.png" alt="logo ic" width="110px">
+                    <img src="img/unesa.jpg" alt="logo unesa" width="60px" style="padding:5px 10px 0 0">
+                    <img src="img/ic.png" alt="logo ic" width="110px">
                 </div>
                 <div class="col-md-4 us-left">
-                    <img src="../img/logo-blue-full.png" alt="logo unesa" width="120px"><br>
+                    <img src="img/logo-blue-full.png" alt="logo unesa" width="120px"><br>
                     Sudah tidak jamanya lagi untuk yang susah-susah. CareMe datang memberikan
                     kemudahan bagi anda agar tetap sehat dimana saja dan kapan saja
                 </div>
@@ -438,6 +505,7 @@
                     Anda Seorang dokter?<br>
                     <a href="">Daftar sebagai Konsultan</a>
                 </div>
+                <!-- sosmed -->
                 <div class="col-md-2 us-left us-footer-3">
                     <B>Follow Us</B>
                     <ul class="list-inline social-buttons us-center us-sosmed ">
@@ -449,13 +517,6 @@
                                     class="pl-3">Linkedin</span></a></li>
                     </ul>
                 </div>
-
-                <!-- <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="#">Terms of Use</a></li>
-                    </ul>
-                </div> -->
             </div>
             <hr>
             <div class="col-md-12">

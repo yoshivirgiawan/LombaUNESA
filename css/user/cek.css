@@ -1,11 +1,12 @@
 /* #007bff --> biru*/
 /* #fed136 --> yellow */
 * {
-    color: #37474f;
+    /* color: #37474f; */
 }
 
 body {
     background-color: #e9ecef90;
+    color: #53565A !important;
 }
 
 .k-main {

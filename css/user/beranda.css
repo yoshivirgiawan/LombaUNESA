@@ -48,6 +48,7 @@ body {
     font-family: us-font;
     font-weight: normal;
     box-sizing: border-box;
+    color: #53565A;
 }
 
 .fa {
@@ -318,6 +319,8 @@ header.masthead .intro-text .intro-heading {}
     border-radius: 0 0 96% 96%/22%;
 }
 
+.carousel-control-next:hover {}
+
 .u-karosel .item {
     /* background-color: grey; */
 }
@@ -415,9 +418,78 @@ header.masthead .intro-text .intro-heading {}
     background: linear-gradient(90deg, rgba(31, 65, 127, 0.542) 0%, rgba(38, 146, 255, 0) 79%)
 }
 
-/* .item h4{
+.artikel-main {
+    padding-bottom: 30px !important;
+}
+
+.artikel-nav>div {
+    padding: 10px 24px !important;
+    /* background-color: #03853b; */
+}
+
+.artikel-aktif {
+    border-bottom: 2px solid #2693ff;
+}
+
+.artikel-nav>div:focus,
+.artikel-nav>div:hover,
+.artikel-nav>div:visited {
+    border-bottom: 2px solid #2693ff;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.label {
+    background-color: #DAB300;
+    position: absolute;
+    padding: 0 10px;
+    margin: 6px;
+    border-radius: 30px;
+    background-color: #35d23a;
+    color: #FFFFFF;
+    max-width: 100px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 21px;
+    height: 21px;
+}
+
+.label2 {
+    background-color: #DAB300;
+}
+
+.artikel-content-main>div {
+    padding: 5px;
+
+}
+
+.artikel-content {
+    max-width: 340px !important;
+}
+
+.artikel-content:hover {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .08),
+        0 21px 40px 0 rgba(0, 0, 0, .11);
+    cursor: pointer;
+}
+
+.artikel-content p {
+    line-height: 1.2 !important;
+}
+
+.selanjutnya {
+    /* mbackground-color: #2374c5; */
     display: inline-block;
-} */
+    padding: 4px 30px;
+    border: 1px solid #2693ff;
+    border-radius: 5px;
+    color: #2693ff;
+    cursor: pointer;
+}
+
+.selanjutnya:hover {
+    font-weight: bold;
+}
 
 /* FOOTER */
 footer {
@@ -450,7 +522,6 @@ footer {
     display: inline-block;
 }
 
-
 #mainNav .navbar-nav .nav-item .nav-link {
     padding: 0.5em 1em !important;
 }
@@ -467,8 +538,6 @@ footer {
     display: inline !important;
 }
 
-element.style {}
-
 .us-sosmed li a {
     width: 32px !important;
     height: 32px !important;
@@ -482,7 +551,7 @@ element.style {}
 }
 
 .us-sosmed li a span {
-    color: black !important;
+    color: #53565A;
 }
 
 @media (max-width: 991.98px) {
