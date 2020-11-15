@@ -76,6 +76,12 @@ body {
     padding: 0;
 }
 
+.k-profil button {
+    klinear-gradient(to right top, #ff564e, #ff7640, #ff9534, #ffb32f, #fed136);
+    background-color: #ff9534;
+    border: none;
+}
+
 .profil-kanan {
     width: 100px;
 }
@@ -116,4 +122,8 @@ body {
 .text-muted img {
     vertical-align: 0 !important;
 
+}
+
+.online {
+    font-size: 12px !important;
 }
