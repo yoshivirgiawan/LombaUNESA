@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CareMe | Sobat Sehat Anda Punya</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/user/beranda.css">
+    <link rel="stylesheet" href="../css/user/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/user/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
+    <link rel="icon" href="../img/logo.png">
+    <script src="../js/jquery.min.js"></script>
+    <!-- <script src="js/owl.carousel.js"></script> -->
+</head>
+
+<body id="page-top">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm us-navbar k-navbar" id="mainNav"
+        style="background-color: rgb(38,147,255);padding-right: 18px;">
+        <div class="container"><a class="mynavbar navbar-brand text-primary" href="afterlogin.html"
+                style="color: rgb(16,224,99);font-size: 28px;">
+                <img src="../img/logo-white-full.png" alt="logo" width="120">
+            </a><button data-toggle="collapse" data-target="#navbarResponsive"
+                class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                    class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="us-nav-center nav navbar-nav ml-auto ">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                            href="konsultasi.html">Konsultasi</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="cek.html">Cek
+                            Body</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="cek.html">info
+                            Kesehatan</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link inbox js-scroll-trigger"
+                            href="history.html"><img src="../img/inbox.png" alt="" width="20px"></a></li>
+                    <li class="nav-item us-li-daftar" role="presentation"><button type="button"
+                            class="us-daftar2 btn btn-primary">
+                            <img src="../img/ppku.png" alt="" class="ppbunder" width="30px">
+                            <div class="d-inline">Unesa <img src="../img/pp panah.svg" width="10px" alt=""
+                                    class="d-inline"></div>
+                        </button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- LOGIN -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- login -->
+                    <div class="login-container u-login">
+                        <div class="login-wrapper">
+                            <span class="login-title">MASUK</span>
+
+                            <form action="">
+                                <div class="input-wrapper mb-4">
+                                    <input type="email" name="" class="" required>
+                                    <span class="input-label">Email</span>
+                                </div>
+
+                                <div class="input-wrapper mb-4">
+                                    <input type="password" name="" class="" required>
+                                    <span class="input-label">Kata Sandi</span>
+                                </div>
+
+                                <div
+                                    class="secondary-feature d-flex justify-content-between align-items-center px-2 mb-4">
+                                    <a class="forgot" href="#">Lupa Password?</a>
+                                    <span class="remember d-flex align-items-center">
+                                        <input class="form-check-input mt-0" type="checkbox" value=""
+                                            id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Ingat Saya
+                                        </label>
+                                    </span>
+                                </div>
+
+                                <div class="login-button-container mb-4">
+                                    <a href="#">
+                                        <button class="btn login-button py-3 masuk-ok " type="submit"
+                                            data-dismiss="modal" aria-label="Close">Masuk</button>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </a>
+
+                                </div>
+
+                                <div class="divider d-flex align-items-center text-center mb-4">
+                                    <span class="line"></span>
+                                    <span class="divider-text px-4">atau buat akun</span>
+                                    <span class="line"></span>
+                                </div>
+
+                                <div class="login-button-container">
+                                    <a class="btn signup-button py-3" href="../dokter/daftar.html">Daftar</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- KAROSEL -->
+    <div class="u-karosel">
+        <div class="owl-carousel owl-theme u-karosel-main">
+            <!-- karosel 1 -->
+            <div class="item item1">
+                <header class="masthead us-bg-header us-left">
+                    <div class="container position-relative intro-bg">
+                        <div class="intro-text us-intro d-flex flex-column position-relative">
+                            <div class="us-header">
+                                <div class="intro-heading "><span>CareMe</span></div>
+                                <div class="intro-lead-in"><span>Sobat Sehat <br>Andalan Kita Semua</span></div>
+                                <div class="us-ex-here">
+                                    <a class="js-scroll-trigger us-ex-a" role="button" href="#services"><b>Daftar</b>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="us-header2 mt-4 p-4">
+                                <div>Konsul dengan para ahli, Analisa body, update informasi seputar
+                                    kesehatan, semua bisa di CareMe!</div>
+                                <a href="#services" class="js-scroll-trigger us-ex-a" role="button">
+                                    <div class="lebihlanjut ">Info Selengkapnya</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!-- karosel 2 -->
+            <div class="item item2">
+                <div class="container intro-bg2">
+                    <div class="position-relative text-right">
+                        <div class="u-intro2 p-4">
+                            <div class="intro-content">Konsultasi Dengan <br> Para Ahli</div>
+                            <div>Ribuan Dokter berpengalaman dan terverifikasi <br>
+                                Penjelasan dan saran medis yang akurat dan dapat dipercaya </div>
+                            <a href="konsultasi.html" class="js-scroll-trigger us-ex-a" role="button">
+                                <div class="lebihlanjut2 mt-4">Chat Sekarang</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- karosel 3 -->
+            <div class="item item3">
+                <div class="container intro-bg3">
+                    <div class="position-relative text-left">
+                        <div class="u-intro3 p-4">
+                            <div class="intro-content">Idealkah Tubuh Anda? <br> Tes Sekarang</div>
+                            <div>Fitur ini akan memberitahu apakah berat badan Anda <br> ideal, kurang, atau
+                                berlebih.</div>
+                            <a href="cek.html" class="js-scroll-trigger us-ex-a" role="button">
+                                <div class="lebihlanjut3 mt-4">Cek Sekarang</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <section class="artikel-main">
+        <div class="container">
+            <div class="text-center">
+
+                <h2 class="">
+                    Artikel
+                </h2>
+                <p class="text-secondary"> Temukan berbagai informasi kesehatan terkini dari sumber terpercaya</p>
+                <!-- bar -->
+                <div class="d-flex justify-content-center artikel-nav mt-4 border-bottom">
+                    <div class="artikel-aktif">Terpopuler</div>
+                    <div class="">Terkini</div>
+                    <div class="">Diat Sehat</div>
+                    <div class="">Tips</div>
+                    <div class="">Diat Sehat</div>
+                </div>
+                <!-- content -->
+                <div class="d-flex mt-3 artikel-content-main">
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/sayur.jpg" alt="Card image cap">
+                            <div class="label">Diet Sehat</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">4 Manfaat Daun Ketumbar bagi Kesehatan
+                                </h6>
+                                <p class="card-text  text-secondary">Daun ketumbar telah terkenal sebagai bahan dasar
+                                    berbagai hidangan lezat. Di balik itu, ada segudang...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -- -->
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/renang.jpg" alt="Card image cap">
+                            <div class="label label2">Tips & Trick</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">Memahami Teknik dan Manfaat Renang Gaya Punggung
+                                </h6>
+                                <p class="card-text  text-secondary">Ada banyak manfaat renang gaya punggung, mulai dari
+                                    memperbaiki postur tubuh hingga menambah...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -- -->
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/sayur.jpg" alt="Card image cap">
+                            <div class="label">Diet Sehat</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">4 Manfaat Daun Ketumbar bagi Kesehatan
+                                </h6>
+                                <p class="card-text  text-secondary">Daun ketumbar telah terkenal sebagai bahan dasar
+                                    berbagai hidangan lezat. Di balik itu, ada segudang...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -- -->
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/renang.jpg" alt="Card image cap">
+                            <div class="label label2">Tips & Trick</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">Memahami Teknik dan Manfaat Renang Gaya Punggung
+                                </h6>
+                                <p class="card-text  text-secondary">Ada banyak manfaat renang gaya punggung, mulai dari
+                                    memperbaiki postur tubuh hingga menambah...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="d-flex mt-3 artikel-content-main">
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/renang.jpg" alt="Card image cap">
+                            <div class="label label2">Tips & Trick</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">Memahami Teknik dan Manfaat Renang Gaya Punggung
+                                </h6>
+                                <p class="card-text  text-secondary">Ada banyak manfaat renang gaya punggung, mulai dari
+                                    memperbaiki postur tubuh hingga menambah...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/sayur.jpg" alt="Card image cap">
+                            <div class="label">Diet Sehat</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">4 Manfaat Daun Ketumbar bagi Kesehatan
+                                </h6>
+                                <p class="card-text  text-secondary">Daun ketumbar telah terkenal sebagai bahan dasar
+                                    berbagai hidangan lezat. Di balik itu, ada segudang...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -- -->
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/renang.jpg" alt="Card image cap">
+                            <div class="label label2">Tips & Trick</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">Memahami Teknik dan Manfaat Renang Gaya Punggung
+                                </h6>
+                                <p class="card-text  text-secondary">Ada banyak manfaat renang gaya punggung, mulai dari
+                                    memperbaiki postur tubuh hingga menambah...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -- -->
+                    <div class="">
+                        <div class="card artikel-content">
+                            <img class="card-img-top" src="../img/beranda/sayur.jpg" alt="Card image cap">
+                            <div class="label">Diet Sehat</div>
+                            <div class="card-body text-left">
+                                <h6 class="card-title mb-2">4 Manfaat Daun Ketumbar bagi Kesehatan
+                                </h6>
+                                <p class="card-text  text-secondary">Daun ketumbar telah terkenal sebagai bahan dasar
+                                    berbagai hidangan lezat. Di balik itu, ada segudang...</p>
+                                <div class="text-primary">Baca Selengkapnya</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -- -->
+                <div class="text-center selanjutnya mt-4">
+                    Selanjutnya
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row us-footer">
+                <div class="col-md-3 us-left us-footer-1">
+                    Held by<br>
+                    <img src="../img/unesa.jpg" alt="logo unesa" width="60px" style="padding:5px 10px 0 0">
+                    <img src="../img/ic.png" alt="logo ic" width="110px">
+                </div>
+                <div class="col-md-4 us-left">
+                    <img src="../img/logo-blue-full.png" alt="logo unesa" width="120px"><br>
+                    Sudah tidak jamanya lagi untuk yang susah-susah. CareMe datang memberikan
+                    kemudahan bagi anda agar tetap sehat dimana saja dan kapan saja
+                </div>
+                <div class="col-md-3 us-footer-2 us-left us-footer-2">
+                    <a href="">Konsultasi</a><br>
+                    <a href="">Cek Gizi</a><br>
+                    <a href="">Cek Body</a><br><br>
+                    Anda Seorang dokter?<br>
+                    <a href="">Daftar sebagai Konsultan</a>
+                </div>
+                <!-- sosmed -->
+                <div class="col-md-2 us-left us-footer-3">
+                    <B>Follow Us</B>
+                    <ul class="list-inline social-buttons us-center us-sosmed ">
+                        <li class="list-item mb-1"><a href="#"><i class="fa fa-twitter"></i><span
+                                    class="pl-3 pb-3">Twitter</span></a></li>
+                        <li class="list-item mb-1"><a href="#"><i class="fa fa-facebook"></i><span
+                                    class="pl-3">&nbsp;Facebook</span></a></li>
+                        <li class="list-item mb-1"><a href="#"><i class="fa fa-linkedin"></i><span
+                                    class="pl-3">Linkedin</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-12">
+                Copyright&nbsp;© CareMe 2020
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- u-daftar2
+u-ppku -->
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.masuk-ok').click(function () {
+            $('.u-daftar2').hide();
+            $('.modal').fadeOut("slow");
+            $('.u-ppku').fadeIn();
+        });
+    });
+
+    $(document).ready(function () {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 2200,
+            autoplayHoverPause: true
+        });
+        $('.carousel-control-next').click(function () {
+            owl.trigger('next.owl.carousel');
+        })
+        $('.carousel-control-prev').click(function () {
+            owl.trigger('prev.owl.carousel', [300]);
+        })
+    })
+</script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/login.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.easing.min.js"></script>
+<script src="../js/script.min.js"></script>
+<script src="../js/scriptuser.js"></script>
+<script src="../js/owl.carousel.js"></script>
+
+</html>

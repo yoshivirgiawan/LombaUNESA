@@ -13,10 +13,18 @@ body {
 
     padding: 0 10px 1px 1px !important;
     width: auto !important;
-    background-color: #fff;
-    color: #007bff;
+    background-color: #fff !important;
+    color: #007bff !important;
     border-radius: 100px !important;
     font-weight: normal !important;
+}
+
+.us-daftar2:hover,
+.us-daftar2:focus,
+.us-daftar2:active {
+    background-color: #fff !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
 }
 
 .ppbunder {
@@ -24,16 +32,10 @@ body {
     background-color: #fff !important;
 }
 
-.us-daftar2:hover,
-.us-daftar2:focus,
-.us-daftar2:active {
-    background-color: white !important;
-    border: 0px solid !important;
-    /* transition: all .5s ease !important; */
-    color: #007bff !important;
-    box-shadow: none !important;
-    font-weight: bold !important;
+.inbox {
+    line-height: 1;
 }
+
 
 
 .k-main {

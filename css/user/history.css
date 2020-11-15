@@ -1,0 +1,41 @@
+.main-font {
+    color: #53565A !important;
+}
+
+.history-main {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+table tr td {
+    vertical-align: middle !important;
+}
+
+.pp-history {
+    line-height: 1.1;
+}
+
+.pp-history>div {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+table button {
+    background-color: #ff9534 !important;
+    border: none !important;
+}
+
+table button:focus,
+table button:active {
+    color: white !important;
+    box-shadow: 0 solid !important;
+}
+
+.card-body {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+tbody>tr:first-child td {
+    border: 0 solid green !important;
+}

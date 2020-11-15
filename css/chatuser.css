@@ -788,13 +788,13 @@ label {
 
 /* Content */
 
-.breadcrumb li:not(:last-child)::after {
+/* .breadcrumb li:not(:last-child)::after {
     content: "/";
     margin-left: .5rem;
     margin-right: .5rem;
     font-weight: 500;
     color: #888888;
-}
+} */
 
 .breadcrumb-color a {
     font-weight: 500;

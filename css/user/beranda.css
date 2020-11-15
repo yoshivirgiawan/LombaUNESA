@@ -43,6 +43,10 @@
     display: none;
 }
 
+.inbox {
+    line-height: 1;
+}
+
 a {
     text-decoration: none !important;
     color: #2693ff;
@@ -77,6 +81,14 @@ ul.social-buttons li a {
     color: #007bff !important;
     border-radius: 100px !important;
     font-weight: normal !important;
+}
+
+.us-daftar2:hover,
+.us-daftar2:focus,
+.us-daftar2:active {
+    background-color: #fff !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
 }
 
 .ppbunder {
