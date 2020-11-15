@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CareMe | Sobat sehat anda punya</title>
+
+    <link rel="stylesheet" href="../css/chatuser.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/user/beranda.css">
+    <link rel="stylesheet" href="../css/user/konsultasi.css">
+
+
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
+    <link rel="icon" href="../img/logo.png">
+</head>
+
+<body id="page-top">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm us-navbar k-navbar" id="mainNav"
+        style="background-color: rgb(38,147,255);padding-right: 18px;">
+        <div class="container"><a class="mynavbar navbar-brand text-primary" href="../index.html"
+                style="color: rgb(16,224,99);font-size: 28px;">
+                <img src="../img/logo-white-full.png" alt="logo" width="120">
+            </a><button data-toggle="collapse" data-target="#navbarResponsive"
+                class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                    class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="us-nav-center nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                            href="konsultasi.html">Konsultasi</a></li>
+                    <!-- <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Cek
+                            Gizi</a></li> -->
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="cek.html">Cek
+                            Body</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                            href="user/cek.html">info Kesehatan</a></li>
+                    <li class="nav-item us-li-daftar" role="presentation"><button type="button"
+                            class="us-daftar btn btn-primary">MASUK</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="k-main">
+        <section class="k-main-content mb-5">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Konsultasi</li>
+                    </ol>
+                </nav>
+                <div class="row k-main-sub">
+                    <!-- LEFT -->
+                    <div class="col-4 mr-2 p-4 text-center c-main-left">
+                        <h6>Konsultasi dimana saja kapan saja</h6><br>
+                        <!-- animasi -->
+                        <div id="carouselExampleIndicators" class="carousel slide left-karosel" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner  c-karosel">
+                                <div class="carousel-item active">
+                                    <div class="d-inline-block">
+                                        <img class="d-block" src="../img/cek/doctorss.png" alt="First slide">
+                                    </div>
+                                    <p>Pilih dari ratusan dokter berpengalaman dan chat online sekarang</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-inline-block">
+                                        <img class="d-block" src="../img/cek/waiting.png" alt="Second slide">
+                                    </div>
+                                    <p>Dokter akan segera menerima permintaan chat kamu</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-inline-block">
+                                        <img class="d-block" src="../img/cek/dokter penjelasan.png" alt="Third slide">
+                                    </div>
+                                    <p>Silakan jelaskan kondisi kamu dan dapatkan solusi dari dokter terpercaya</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon prev-icon" aria-hidden="true"><img
+                                        src="../img/cek/prev.png" alt=""></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon next-icon" aria-hidden="true"><img
+                                        src="../img/cek/next.png" alt=""></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- infoo -->
+                        <div class="text-left mt-1">
+                            <div class="d-flex">
+                            </div>
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <div class="col-1 mr-2"><img src="../img/cek/cek.svg" width="20px" alt="" class="mr-4">
+                                </div>
+                                <div class="col">Ribuan Dokter berpengalaman dan terverifikasi</div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center mb-2">
+                                <div class="col-1 mr-2"><img src="../img/cek/cek.svg" width="20px" alt="" class="mr-3">
+                                </div>
+                                <div class="col"> Dari Rumah Sakit Terbaik</div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="col-1 mr-2"><img src="../img/cek/cek.svg" width="20px" alt="" class="mr-3">
+                                </div>
+                                <div class="col"> Penjelasan dan saran medis yang akurat dan dapat dipercaya </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="col">
+                        <div class="row k-search mb-4">
+                            <div class="k-search-input container">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
+                                        placeholder="Cari Dokter">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text k-search-button">Cari</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- content -->
+                        <div class="overflow-auto">
+                        </div>
+                        <div class="d-flex flex-column overflow-auto k-konten-right">
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Chat Dokter</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- chat -->
+                                            <div class="chat">
+
+                                                <div class="chat-header">
+                                                    <div class="chat-header-user">
+                                                        <img src="../img/konsul/pp-woman.jpg" alt=""
+                                                            class="avatar-user">
+                                                        <h5> dr. Susanti SpA
+                                                            <div class="font-weight-normal online">Online</div>
+                                                        </h5>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="chat-body">
+                                                    <div class="chat-container">
+                                                        <div class="chat-item received-chat mb-2">
+                                                            <div class="chat-content">
+                                                                Selamat malam. Dengan saya dr. Susanti Ada yang bisa
+                                                                saya bantu? Mohon maaf jika agak lambat membalas karena
+                                                                ada pasien lain juga sedang saya balas.
+                                                            </div>
+                                                            <div class="chat-date pl-1">
+                                                                12.11
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="chat-item successfull-chat">
+                                                            <div class="chat-content">
+                                                                Terimakasih dok
+                                                            </div>
+                                                            <div class="chat-date pr-1">
+                                                                12.11
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="chat-form">
+                                                    <form action="" autocomplete="off">
+                                                        <input type="text" name="chat-form"
+                                                            placeholder="Masukkan pesan..." class="form-control">
+                                                        <div class="form-button d-flex">
+
+
+                                                            <button class="btn btn-primary ml-3">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                                                    <polygon points="22 2 15 22 11 13 2 9 22 2">
+                                                                    </polygon>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- profil -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-woman.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1"> dr. Susanti SpA</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Siloam Hospitals Surabaya
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (240)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 4 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 10.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Chat
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -- -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-man.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1">dr. Marthin Limba, Sp PD</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Klinik Royal Medika
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (100)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 2 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 20.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Chat
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -- -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-woman.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1"> dr. Susanti SpA</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Siloam Hospitals Surabaya
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (240)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 4 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 10.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Chat
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -- -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-man.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1">dr. Marthin Limba, Sp PD</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Klinik Royal Medika
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (100)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 2 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 20.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Chat
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            --<div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-woman.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1"> dr. Susanti SpA</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Siloam Hospitals Surabaya
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (240)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 4 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 10.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Chat
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -- -->
+                            <div class="col k-profil">
+                                <div class="card kartu d-flex flex-row">
+                                    <div class="card-body">
+                                        <a href="" class="text-dark">
+                                            <div class="mb-2 d-flex">
+                                                <div class="position-relative d-inline-block">
+                                                    <img src="../img/konsul/pp-man.jpg" alt="" width="50%"
+                                                        class="rounded-circle card-img-top">
+                                                    <span class="k-aktif-bullet"></span>
+                                                </div>
+                                                <div class="ml-3">
+                                                    <h6 class="card-title mb-1">dr. Marthin Limba, Sp PD</h6>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-stetoskop.svg"
+                                                            alt="">
+                                                        Dokter Gizi</div>
+                                                    <div class="text-muted"> <img src="../img/cek/icon-build.svg"
+                                                            alt=""> Klinik Royal Medika
+                                                    </div>
+                                                    <div class="d-flex flex-row mt-2">
+                                                        <div class="text-muted">
+                                                            <img src="../img/cek/like.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 99% (100)</span>
+                                                        </div>
+                                                        <div class="text-muted pl-5">
+                                                            <img src="../img/cek/tas.png" width="15px" alt="">
+                                                            <span class="text-dark ml-1"> 2 tahun</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body profil-kanan">
+                                        <div class="d-flex flex-column border-left pl-3 mb-4">
+                                            <div class="text-muted">
+                                                biaya mulai dari :
+                                            </div>
+                                            <div>Rp 20.000</div>
+                                        </div>
+                                        <div><button type="button" class="btn btn-primary w-100" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                Chat
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- pagination -->
+                            <div class="mt-4">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1"
+                                                aria-disabled="true">Previous</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTENT BOTTOM -->
+        <div class="container mb-5">
+            <h6>Mengapa Harus Harus CareMe?</h6>
+            <p class="text-secondary">Memilih Tanya Dokter CareMe akan mempertemukan kamu dengan tenaga medis
+                profesional secara cepat. Tidak perlu repot mencari dokter terdekat dan harus keluar rumah. CareMe
+                memastikan kamu mendapatkan pelayanan terbaik dari tim dokter spesialis di Indonesia yang terhubung
+                langsung dari halaman website CareMe.
+                Fasilitas ini bisa kamu gunakan untuk menjawab pelbagai masalah kesehatan yang sering dialami seperti
+                Gejala tipes, Anemia, dan Hepatitis. Selain itu kamu juga bisa memastikan kondisi kesehatan kamu yang
+                berkaitan dengan organ penting seperti kondisi pneumonia dan bronkitis di paru-paru. Masalah kesehatan
+                yang kerap kali jadi pertanyaan misalnya masalah kista dan kehamilan bagi wanita, juga kesehatan
+                keluarga kamu yang berkaitan dengan gejala usus buntu, Asam lambung, hingga batu ginjal.
+                Kamu bisa melakukan konsultasi dan diskusi kesehatan dengan dokter dan psikolog, menanyakan tips diet,
+                rekomendasi obat, rujukan ke rumah sakit, terapi, hingga rekomendasi gaya hidup yang baik sebagai upaya
+                pencegahan terhadap penyakit maupun kondisi kesehatan lainnya. </p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row us-footer">
+                <div class="col-md-3 us-left us-footer-1">
+                    Held by<br>
+                    <img src="../img/unesa.jpg" alt="logo unesa" width="60px" style="padding:5px 10px 0 0">
+                    <img src="../img/ic.png" alt="logo ic" width="110px">
+                </div>
+                <div class="col-md-4 us-left">
+                    <img src="../img/logo-blue-full.png" alt="logo unesa" width="120px"><br>
+                    Sudah tidak jamanya lagi untuk yang susah-susah. CareMe datang memberikan
+                    kemudahan bagi anda agar tetap sehat dimana saja dan kapan saja
+                </div>
+                <div class="col-md-3 us-footer-2 us-left us-footer-2">
+                    <a href="">Konsultasi</a><br>
+                    <a href="">Cek Gizi</a><br>
+                    <a href="">Cek Body</a><br><br>
+                    Anda Seorang dokter?<br>
+                    <a href="">Daftar sebagai Konsultan</a>
+                </div>
+                <!-- sosmed -->
+                <div class="col-md-2 us-left us-footer-3">
+                    <B>Follow Us</B>
+                    <ul class="list-inline social-buttons us-center us-sosmed ">
+                        <li class="list-item mb-1"><a href="#"><i class="fa fa-twitter"></i><span
+                                    class="pl-3 pb-3">Twitter</span></a></li>
+                        <li class="list-item mb-1"><a href="#"><i class="fa fa-facebook"></i><span
+                                    class="pl-3">&nbsp;Facebook</span></a></li>
+                        <li class="list-item mb-1"><a href="#"><i class="fa fa-linkedin"></i><span
+                                    class="pl-3">Linkedin</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-12">
+                Copyright&nbsp;© CareMe 2020
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="../js/script.min.js"></script>
+<script src="../js/scriptuser.js"></script>
+
+</html>
