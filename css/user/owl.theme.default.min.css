@@ -36,7 +36,9 @@
 }
 
 .owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 10px
+    /* margin-top: 10px */
+    margin-top: 25px;
+
 }
 
 .owl-theme .owl-dots .owl-dot {

@@ -256,7 +256,7 @@ button {
 }
 
 button:focus {
-    outline: 1px dotted;
+    outline: 0 dotted;
     /* outline: 5px auto -webkit-focus-ring-color */
     outline: 0 auto -webkit-focus-ring-color
 }
@@ -11477,6 +11477,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -11502,8 +11503,8 @@ header.masthead .intro-text .intro-heading {
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
+        /* line-height: 75px;
+        margin-bottom: 50px; */
         font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 }
@@ -12002,8 +12003,9 @@ a:hover {
 }
 
 .text-primary {
-    color: #fed136 !important
+    color: #007bff !important
 }
+
 
 h1,
 h2,
