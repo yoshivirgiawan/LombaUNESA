@@ -229,6 +229,7 @@ header.masthead .intro-text .intro-heading {}
 .us-nav-center>li .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.22);
     border-radius: 50px;
+    font-weight: bold !important;
 }
 
 .us-nav-center>li {
@@ -269,6 +270,7 @@ header.masthead .intro-text .intro-heading {}
     /* transition: all .5s ease !important; */
     color: white !important;
     box-shadow: none !important;
+    font-weight: bold !important;
 }
 
 .us-left {
@@ -388,7 +390,8 @@ header.masthead .intro-text .intro-heading {}
 }
 
 .u-karosel-main .item1 {
-    background: linear-gradient(128deg, rgba(31, 64, 127, 1) 0%, rgba(38, 147, 255, 1) 79%) !important;
+    background: linear-gradient(45deg, rgba(31, 64, 127, 1) 0%, rgba(38, 147, 255, 1) 79%) !important;
+    /* 128deg */
 
 }
 
