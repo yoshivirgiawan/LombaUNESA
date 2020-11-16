@@ -184,7 +184,10 @@ body {
     .k-main-sub>div {
         max-width: 100% !important;
         margin-bottom: 7px;
+        height: auto;
     }
+
+
 
     .artikel-content-main>div {
         width: 50%;
@@ -251,6 +254,8 @@ body {
         background-color: white;
     }
 
+
+
     .k-search {
         margin-right: -15px;
     }
@@ -266,5 +271,15 @@ body {
 
     .profil-kanan button {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: #007bff;
+    }
+
+    .kartu {
+        margin: auto -40px auto -40px;
     }
 }
