@@ -27,10 +27,6 @@
         height: '435px'
     });
 
-    $('.content-container').slimScroll({
-        height: 'calc(var(--vh, 1vh)*100 - 73px - 1.5rem)'
-    });
-
     $('.body-chat-container').slimScroll({
         height: '100%'
     });
