@@ -43,3 +43,27 @@ table button:active {
 tbody>tr:first-child td {
     border: 0 solid green !important;
 }
+
+@media (max-width: 992px) {}
+
+
+@media (max-width: 768px) {
+    .hide-table {
+        display: none;
+    }
+
+    .btn-lihat {
+        display: none;
+    }
+
+    .info-chat {
+        padding: 6px 12px !important;
+
+    }
+
+    .info-chat>div {
+        background-color: #dcdcdc;
+        border-radius: 3px;
+        padding: 0 3px;
+    }
+}
