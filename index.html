@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/login.css">
 
-
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="icon" href="img/logo.png">
     <script src="js/jquery.min.js"></script>
-    <!-- <script src="js/owl.carousel.js"></script> -->
+
 </head>
 
 <body id="page-top">
@@ -139,7 +138,8 @@
                                 <div class="intro-heading "><span>CareMe</span></div>
                                 <div class="intro-lead-in"><span>Sobat Sehat <br>Andalan Kita Semua</span></div>
                                 <div class="us-ex-here">
-                                    <a class="js-scroll-trigger us-ex-a" role="button" href="#services"><b>Daftar</b>
+                                    <a class="js-scroll-trigger us-ex-a" role="button" data-toggle="modal"
+                                        data-target="#exampleModal"><b>Daftar</b>
                                     </a>
                                 </div>
                             </div>
@@ -343,7 +343,8 @@
                     <img src="img/ic.png" alt="logo ic" width="110px">
                 </div>
                 <div class="col-md-4 us-left">
-                    <img src="img/logo-blue-full.png" alt="logo unesa" width="120px"><br>
+                    <a href="#page-top"><img src="img/logo-blue-full.png" alt="logo" width="120px"></a>
+                    <br>
                     Sudah tidak jamanya lagi untuk yang susah-susah. CareMe datang memberikan
                     kemudahan bagi anda agar tetap sehat dimana saja dan kapan saja
                 </div>
@@ -395,7 +396,7 @@ u-ppku -->
             items: 1,
             loop: true,
             margin: 10,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 2200,
             autoplayHoverPause: true
         });
@@ -408,9 +409,9 @@ u-ppku -->
     })
 </script>
 <script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/login.js"></script>
 <script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/script.min.js"></script>
 <script src="js/scriptuser.js"></script>

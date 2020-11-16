@@ -1,9 +1,13 @@
 /* #007bff */
 
+* {
+    scroll-behavior: smooth !important;
+}
+
 body {
     box-sizing: border-box !important;
     background-color: #e9ecef90;
-    color: #53565a;
+    color: #53565a !important;
 }
 
 .us-daftar2 {

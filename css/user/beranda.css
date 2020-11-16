@@ -33,6 +33,7 @@
     margin: 0;
     padding: 0;
     font-family: us-font, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    scroll-behavior: smooth !important;
 }
 
 .us-navbar .nav-link {
@@ -56,7 +57,7 @@ body {
     font-family: us-font;
     font-weight: normal;
     box-sizing: border-box;
-    color: #53565A;
+    color: #53565A !important;
 }
 
 .fa {
@@ -98,6 +99,10 @@ ul.social-buttons li a {
 
 .u-login {
     /* background: -webkit-linear-gradient(left, #fe9d5d, #49fc25); */
+}
+
+.u-login .login-button {
+    background-color: #007bff !important;
 }
 
 /* HEADER */
@@ -334,16 +339,22 @@ header.masthead .intro-text .intro-heading {}
     pointer: cursor;
     background-color: white;
 
+
 }
 
 .us-ex-a {
     font-size: 17px !important;
-    color: white;
+    color: white !important;
     font-weight: bold !important;
     display: inline-block;
     width: 100%;
     height: 100%;
     padding: 10px !important;
+}
+
+.us-ex-a:hover,
+.us-ex-a:focus {
+    color: #ff9534 !important;
 }
 
 /* carousel */
@@ -503,6 +514,10 @@ header.masthead .intro-text .intro-heading {}
 
 }
 
+.artikel-content h6 {
+    font-weight: bold;
+}
+
 .artikel-content {
     max-width: 340px !important;
 }
@@ -594,7 +609,9 @@ footer {
     color: #53565A;
 }
 
-@media (max-width: 991.98px) {
+/* @media (min-width:768px) { */
+
+@media (max-width: 768px) {
 
     #mainNav.navbar-shrink {
         padding-bottom: 5px !important;
