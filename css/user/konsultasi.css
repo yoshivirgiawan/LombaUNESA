@@ -275,9 +275,9 @@ body {
 }
 
 @media (max-width: 576px) {
-    body {
+    /* body {
         background-color: #007bff;
-    }
+    } */
 
     .kartu {
         margin: auto -40px auto -40px;
