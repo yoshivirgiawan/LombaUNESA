@@ -367,4 +367,9 @@ body {
     .c-result-line span {
         word-wrap: normal;
     }
+
+    .c-result-line span {
+
+        font-size: 10px;
+    }
 }
