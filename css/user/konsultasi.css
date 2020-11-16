@@ -1,5 +1,10 @@
 /* #007bff */
 
+.h-main {
+    height: 550px;
+}
+
+
 * {
     scroll-behavior: smooth !important;
 }
