@@ -363,4 +363,8 @@ body {
     .info-kal {
         display: block;
     }
+
+    .c-result-line span {
+        word-wrap: normal;
+    }
 }

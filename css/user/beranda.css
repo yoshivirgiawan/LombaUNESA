@@ -101,6 +101,31 @@ ul.social-buttons li a {
     /* background: -webkit-linear-gradient(left, #fe9d5d, #49fc25); */
 }
 
+.login-container,
+.modal-body {
+    padding: 0 !important;
+}
+
+.login-wrapper {
+    padding-top: 0 !important;
+    padding-bottom: 10 !important;
+}
+
+.login-container {
+    min-height: auto !important;
+}
+
+.login-container .login-wrapper {
+    box-shadow: none !important;
+    padding-bottom: 20px !important;
+}
+
+
+.login-title {
+    padding: 12px !important;
+    padding-bottom: 20px !important;
+}
+
 .u-login .login-button {
     background-color: #007bff !important;
 }
