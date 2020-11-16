@@ -329,7 +329,38 @@ body {
     opacity: .2;
 }
 
-/* .c-res-lebih {
-    font-weight: bold !important;
-    color: #007bff !important;
-} */
+@media (max-width: 992px) {
+
+    .c-input-group-sub {
+        flex-wrap: wrap !important;
+        justify-content: space-around;
+    }
+
+    .c-input-group-sub>div {
+        min-width: 48% !important;
+    }
+
+
+    body {
+        /* background-color: #82beff !important; */
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        /* background-color: #ffa880; */
+    }
+
+    .c-input-group-sub>div {
+        width: 100%;
+    }
+
+    .c-gender-button {
+        justify-content: space-around;
+    }
+
+    .info-kal {
+        display: block;
+    }
+}
