@@ -36,6 +36,10 @@
     scroll-behavior: smooth !important;
 }
 
+ol {
+    margin-left: 15px;
+}
+
 .us-navbar .nav-link {
     color: white !important;
 }
@@ -724,4 +728,12 @@ footer {
         width: auto;
     }
 
+}
+
+.c-result ol li {
+    font-weight: 600;
+}
+
+.c-result ol li p {
+    font-weight: normal;
 }
